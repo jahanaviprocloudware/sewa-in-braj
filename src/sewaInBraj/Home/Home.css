@@ -1,0 +1,42 @@
+.gap {
+  gap: 1em;
+  border: 1px solid transparent;
+  padding: 8%;
+  background-color: "white";
+}
+
+.textColor{
+    color:white
+}
+
+.backgorund {
+  background-image: linear-gradient(to right, #000000, white);
+}
+
+.backgorund2 {
+ background-color: #0c0c0c
+}
+
+.backgorund3 {
+ background-image: linear-gradient(to right, #672fa7, white);
+}
+
+.backgorund4 {
+ background-color: #327899
+}
+
+.textColor2{
+    color:rgb(34, 5, 66)
+}
+
+.backgorundbtnColor {
+  background-color: #BDBDBD !important;
+}
+
+.backgorundbtnColor2 {
+  background-color:rgb(34, 5, 66) !important;
+}
+.headingColor {
+  color: #BDBDBD;
+  font-family: 'Luminari, fantasy';
+}
