@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sewa-in-braj/static/css/main.e9538235.css",
+    "main.js": "/sewa-in-braj/static/js/main.722eb1ff.js",
+    "static/js/453.5bb619bb.chunk.js": "/sewa-in-braj/static/js/453.5bb619bb.chunk.js",
+    "static/media/ChatGPT Image Jun 20, 2025, 03_58_54 PM.png": "/sewa-in-braj/static/media/ChatGPT Image Jun 20, 2025, 03_58_54 PM.220cab7666d2c9d3f26c.png",
+    "static/media/ChatGPT Image Jun 20, 2025, 02_59_46 PM.png": "/sewa-in-braj/static/media/ChatGPT Image Jun 20, 2025, 02_59_46 PM.359edd88a2918e231b48.png",
+    "static/media/FreeImageKit_IMG_Resized_to_(1024x1024) (1).png": "/sewa-in-braj/static/media/FreeImageKit_IMG_Resized_to_(1024x1024) (1).ade68034a0cc710ab195.png",
+    "static/media/FreeImageKit_IMG_Resized_to_(1024x1024).png": "/sewa-in-braj/static/media/FreeImageKit_IMG_Resized_to_(1024x1024).1125499509042addfb3d.png",
+    "static/media/background-scen.svg": "/sewa-in-braj/static/media/background-scen.d22ab31cd66fbc0bdfb5b140144c349d.svg",
+    "index.html": "/sewa-in-braj/index.html",
+    "main.e9538235.css.map": "/sewa-in-braj/static/css/main.e9538235.css.map",
+    "main.722eb1ff.js.map": "/sewa-in-braj/static/js/main.722eb1ff.js.map",
+    "453.5bb619bb.chunk.js.map": "/sewa-in-braj/static/js/453.5bb619bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9538235.css",
+    "static/js/main.722eb1ff.js"
+  ]
+}
