@@ -1,0 +1,15 @@
+.card-uniform {
+  min-width: 220px;
+  max-width: 320px;
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem auto;
+}
+.card-img-uniform {
+  object-fit: cover;
+  height: 120px;
+  width: 100%;
+}

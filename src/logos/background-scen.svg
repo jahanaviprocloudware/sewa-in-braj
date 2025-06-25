@@ -1,0 +1,56 @@
+<svg viewBox="0 0 800 400" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <!-- Gradient Sky -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6dd5ed" />
+      <stop offset="100%" stop-color="#2193b0" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="400" fill="url(#skyGradient)" />
+
+  <!-- Sun with glow -->
+  <circle cx="100" cy="80" r="50" fill="url(#sunGlow)">
+    <animate attributeName="cx" values="100;700;100" dur="30s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="80;50;80" dur="30s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Clouds -->
+  <g opacity="0.4">
+    <ellipse cx="200" cy="60" rx="40" ry="20" fill="white">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="200,0" dur="60s" repeatCount="indefinite" />
+    </ellipse>
+    <ellipse cx="500" cy="90" rx="30" ry="15" fill="white">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="300,0" dur="70s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+
+  <!-- Back hills -->
+  <path d="M0,300 Q200,250 400,300 T800,300 L800,400 L0,400 Z" fill="#2f7e41" />
+
+  <!-- Front hills -->
+  <path d="M0,320 Q200,280 400,320 T800,320 L800,400 L0,400 Z" fill="#1e5631" />
+
+  <!-- Animated River -->
+  <path id="river" d="M0,340 Q200,360 400,340 T800,340 L800,400 L0,400 Z" fill="#3fa9f5">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="
+        M0,340 Q200,360 400,340 T800,340 L800,400 L0,400 Z;
+        M0,342 Q200,358 400,342 T800,342 L800,400 L0,400 Z;
+        M0,340 Q200,360 400,340 T800,340 L800,400 L0,400 Z" />
+  </path>
+
+  <!-- Birds flying on a curved path -->
+  <path id="birdPath" d="M0,150 Q200,100 400,130 T800,110" fill="none" stroke="none" />
+  <g>
+    <path d="M0,0 Q5,-5 10,0 Q15,-5 20,0" fill="none" stroke="black" stroke-width="2">
+      <animateMotion dur="12s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#birdPath" />
+      </animateMotion>
+    </path>
+  </g>
+</svg>

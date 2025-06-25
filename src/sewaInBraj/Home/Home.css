@@ -6,37 +6,18 @@
 }
 
 .textColor{
-    color:white
+    color:#222
 }
 
 .backgorund {
-  background-image: linear-gradient(to right, #000000, white);
+  background-image: url('../../../src/logos/background-scen.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  max-height: 35vh;
 }
 
-.backgorund2 {
- background-color: #0c0c0c
-}
-
-.backgorund3 {
- background-image: linear-gradient(to right, #672fa7, white);
-}
-
-.backgorund4 {
- background-color: #327899
-}
-
-.textColor2{
-    color:rgb(34, 5, 66)
-}
-
-.backgorundbtnColor {
-  background-color: #BDBDBD !important;
-}
-
-.backgorundbtnColor2 {
-  background-color:rgb(34, 5, 66) !important;
-}
 .headingColor {
-  color: #BDBDBD;
-  font-family: 'Luminari, fantasy';
+  color: #222;
+   font-family: 'Luminari, fantasy', cursive;
+  font-style: italic;
 }
