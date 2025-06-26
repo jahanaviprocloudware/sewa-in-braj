@@ -126,7 +126,7 @@ export default function CardWithBody(props) {
         </div>
         <h5 className="mb-0">{name}</h5>
       </div>
-      <img src={img} className="card-img-top card-img-uniform" alt={name} />
+      <img src={img[0] || ''} className="card-img-top card-img-uniform" alt={name} />
       <div className="card-body flex-grow-1">
         <p className="card-text">{description}</p>
         <p className="card-text fw-bold">Price: {price}</p>
