@@ -39,8 +39,17 @@ import ladugopalheavydress1 from '../../../logos/ladugopalheavydress1.webp';
 import jwelrymrg1 from '../../../logos/jewelrymrg1.webp';
 import ladugopalheavydress2 from '../../../logos/ladugopalheavydress2.webp';
 import ladugopalheavydress3 from '../../../logos/ladugopalheavydress3.webp';
-import ladugopalheavydress4 from '../../../logos/ladugopalheavydress4.webp';
-import ladugopalheavydress5 from '../../../logos/ladugopalheavydress5.webp';
+import jagarnathlogo from '../../../logos/jagarnathlogo.webp';
+import radharanilogo from '../../../logos/radharanilogo.webp';
+import ribbonlogo from '../../../logos/ribbonlogo.webp';  
+import shankhlogo from '../../../logos/shankhlogo.webp';
+import bangleslogo from '../../../logos/bangleslogo.webp'; 
+import earringlogo from '../../../logos/earringlogo.webp';
+import gheelogo from '../../../logos/gheelogo.webp';
+import bhagvadgeetalogo from '../../../logos/bhagvadgeetalogo.webp';
+import baratparalogo from '../../../logos/baratparalogo.webp';
+import earing1 from '../../../logos/earing1.webp';
+
 
 
 export const reducerData = [
@@ -63,7 +72,7 @@ export const reducerData = [
     "name": "Radharani dolls",
     "price": " ₹1100",
     "description": "Single ₹1100, Radha Krishna pair ₹2000, Krishna Balram pair ₹2000",
-    "img": [radharaniDoll,radhakrishna,krishnaBalram],
+    "img": [radharanilogo,radharaniDoll,radhakrishna,krishnaBalram],
     "description2": "Delicately made dolls symbolizing devotion and divine love.",
     "moreInfo": `
         Length: "47 cm / 18.5 inches",
@@ -75,7 +84,7 @@ export const reducerData = [
     "name": "Jagannath Baldev Subhadra Mayia dolls",
     "price": "₹3000",
     "description": "Set of 3 with sofa set ₹500 extra",
-    "img": [jagranathgdoll, baldev, subadramaiya],
+    "img": [jagarnathlogo,jagranathgdoll, baldev, subadramaiya],
     "description2": "Complete deity set perfect for home altars and temple use.",
     "moreInfo": `
     For Jagannath Baldev:,
@@ -93,9 +102,10 @@ export const reducerData = [
     "name": "Laddu Gopal pagri",
     "price": "500",
     "description": "Headwear for Laddu Gopal heavy dress",
-    "img": [ladugopalheavydress1, ladugopalheavydress2, ladugopalheavydress3, ladugopalheavydress4, ladugopalheavydress5],
+    "img": [ladugopalheavydress1, ladugopalheavydress2, ladugopalheavydress3],
     "description2": "Traditional pagris designed for Laddu Gopal idols.",
-    "moreInfo": {}
+    "moreInfo": `
+    available in 3 sizes: 2,3,4,5,6,7 number.`
   },
   
   {
@@ -123,7 +133,7 @@ export const reducerData = [
     "name": "Bharat Natyam prandi",
     "price": "₹130",
     "description": "Classical dance prandi",
-    "img": [baratpara1, baratpara2],
+    "img": [baratparalogo,baratpara1, baratpara2],
     "description2": "Accessory specifically designed for Bharat Natyam dancers.",
     "moreInfo": `
     Length: "44 cm / 17 inches",`
@@ -160,7 +170,7 @@ export const reducerData = [
     "name": "Ribbon mala",
     "price": "₹10 - ₹70",
     "description": "Available in ₹10, ₹20, ₹30, ₹50, ₹70",
-    "img": [],
+    "img": [ribbonlogo],
     "description2": "Colorful ribbon malas for various uses.",
     "moreInfo": {}
   },
@@ -241,7 +251,7 @@ export const reducerData = [
     "name": "Pearl/plastic earrings",
     "price": "₹20 - ₹50",
     "description": "Available in ₹20, ₹30, ₹50",
-    "img": [],
+    "img": [earringlogo,earing1],
     "description2": "Elegant pearl and plastic earrings in assorted prices.",
     "moreInfo": {}
   },
@@ -306,7 +316,7 @@ export const reducerData = [
     "description": "Starting from ₹200",
     "img": [ladugopaldress1, ladugopaldress2],
     "description2": "Handmade dresses specifically for Laddu Gopal idols.",
-    "moreInfo": {}
+    "moreInfo": `available in 3 sizes: 2,3,4,5,6,7 number.`
   },
   {
     "id": 28,
@@ -351,7 +361,7 @@ export const reducerData = [
     "name": "Shankh (Conchshell)",
     "price": "Varies",
     "description": "Spiritual conchshell for rituals",
-    "img": [shankh],
+    "img": [shankhlogo,shankh],
     "description2": "Sacred conchshells used in Hindu worship and ceremonies.",
     "moreInfo": `
     Length: 16 cm / 6.5 inches,
@@ -442,7 +452,7 @@ export const reducerData = [
     "name": "Pure bilona ghee",
     "price": "₹1200 per kg",
     "description": "Traditional handmade ghee",
-    "img": [],
+    "img": [gheelogo],
     "description2": "Authentic bilona ghee prepared using traditional methods.",
     "moreInfo": {}
   },
@@ -460,7 +470,7 @@ export const reducerData = [
     "name": "Srimad Bhagavad Gita",
     "price": "₹250 - ₹350",
     "description": "₹250 for Hindi, ₹350 for English edition",
-    "img": [Bhagvadgeeta,baghvadgeeta2],
+    "img": [bhagvadgeetalogo,Bhagvadgeeta,baghvadgeeta2],
     "description2": "Sacred scripture available in multiple languages.",
     "moreInfo": {}
   },
@@ -499,7 +509,7 @@ export const reducerData = [
     "name": "Jute and cloth bangles",
     "price": "₹120",
     "description": "Available in ₹50, ₹70, ₹100 as per selected material and size",
-    "img": [bangles1, bangles2, bangles3, bangles4, bangles5, bangles6, bangles7],
+    "img": [bangleslogo,bangles1, bangles2, bangles3, bangles4, bangles5, bangles6, bangles7],
     "description2": "Eco-friendly handcrafted bangles suitable for all occasions.",
     "moreInfo": `
       Sizes: ["2'2"/ "2'4"/ "2'6"],
