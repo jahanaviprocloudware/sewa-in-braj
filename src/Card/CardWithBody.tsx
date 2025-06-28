@@ -113,13 +113,21 @@
 
 import React from 'react';
 import './CardWithBody.css';
+import { useDispatch } from 'react-redux';
+import { setSelectedData } from '../sewaInBraj/app/reducer/reducer';
+import { setActivetab } from '../sewaInBraj/app/reducer/tabSlice';
 
 export default function CardWithBody(props) {
   const { uniqueKey, img, price, description, description2, moreInfo, name } = props;
   const [expanded, setExpanded] = React.useState(false);
+  const dispatch = useDispatch();
 
   return (
     <div className="card card-uniform" key={uniqueKey}>
+      <div onClick={() => {
+        dispatch(setSelectedData(props));
+        dispatch(setActivetab('selectedCardPage'))
+        }}>
       <div className="card-header d-flex align-items-center">
         <div className="rounded-circle bg-danger text-white d-flex justify-content-center align-items-center me-2" style={{ width: 40, height: 40, fontSize: 20 }}>
           {name?.charAt(0).toUpperCase()}
@@ -127,6 +135,7 @@ export default function CardWithBody(props) {
         <h5 className="mb-0">{name}</h5>
       </div>
       <img src={img[0] || ''} className="card-img-top card-img-uniform" alt={name} />
+      </div>
       <div className="card-body flex-grow-1">
         <p className="card-text">{description}</p>
         <p className="card-text fw-bold">Price: {price}</p>

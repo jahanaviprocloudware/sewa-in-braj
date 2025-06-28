@@ -3,6 +3,7 @@ import "./krishnaanimation.css";
 export const KrishnaAnimation = () => {
   return (
     <div className="html">
+      <h1 className="text-center">Radhe! Radhe!</h1>
       <div className="bodyUp">
         <div className="kanha cmn">
           <div className="earing cmn"></div>

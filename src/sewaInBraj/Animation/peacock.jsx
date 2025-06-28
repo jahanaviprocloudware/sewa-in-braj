@@ -3,8 +3,8 @@ import "./peacock.css";
 export const Peacock = () => {
   return (
     <div className="root">
-      <div className="body">
-       <div className="flute">
+      <div className="pBody">
+       <div className="pFlute">
   <div className="group first">
     <div className="strip first"></div>
     <div className="strip second"></div>

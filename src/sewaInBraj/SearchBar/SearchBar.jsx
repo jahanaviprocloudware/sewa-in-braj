@@ -1,33 +1,30 @@
-import * as React from 'react';
-import Paper from '@mui/material/Paper';
-import InputBase from '@mui/material/InputBase';
-import Divider from '@mui/material/Divider';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import SearchIcon from '@mui/icons-material/Search';
-import { useDispatch } from 'react-redux';
-import { setItemSearch } from '../app/reducer/tabSlice';
+import SearchIcon from "@mui/icons-material/Search";
+import Divider from "@mui/material/Divider";
+import IconButton from "@mui/material/IconButton";
+import InputBase from "@mui/material/InputBase";
+import Paper from "@mui/material/Paper";
+import { useDispatch } from "react-redux";
+import { setItemSearch } from "../app/reducer/tabSlice";
 
 export const SearchBar = () => {
-    const dispatch = useDispatch();
+  const dispatch = useDispatch();
   return (
     <Paper
       component="form"
-      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}
+      sx={{ p: "0px 4px", display: "flex", alignItems: "center", width: '50%' }}
     >
-      <IconButton sx={{ p: '10px' }} aria-label="menu">
-        <MenuIcon />
-      </IconButton>
       <InputBase
         sx={{ ml: 1, flex: 1 }}
         placeholder="Search Your Item"
-        inputProps={{ 'aria-label': 'search items' }}
-        onChange={e => dispatch(setItemSearch(e.target.value.replace(/^\s+/, '')))}
+        inputProps={{ "aria-label": "search items" }}
+        onChange={(e) =>
+          dispatch(setItemSearch(e.target.value.replace(/^\s+/, "")))
+        }
       />
-      <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
+      <IconButton type="button" sx={{ p: "10px" }} aria-label="search">
         <SearchIcon />
       </IconButton>
       <Divider sx={{ height: 28, m: 0.5 }} orientation="vertical" />
     </Paper>
   );
-}
+};

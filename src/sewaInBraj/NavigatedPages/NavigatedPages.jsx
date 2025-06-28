@@ -1,24 +1,26 @@
 import { useSelector } from "react-redux";
-import { Home } from "../Home/Home";
 import { Shop } from "../../Shoping/Shop";
-import NavigationBar from "../Navigation/Navigations";
 import { KrishnaAnimation } from "../Animation/krishnaAnimation";
-import { useEffect } from "react";
+import { Home } from "../Home/Home";
+import NavigationBar from "../Navigation/Navigations";
+import { ProductInfo } from "../ProductInfo/ProductInfo";
 
 export const NavigatedPages = () => {
   const { activeTab, loading } = useSelector((state) => state.activeTabs);
-//   useEffect(() => {
-    if (loading) {
-      return <KrishnaAnimation />;
-    }
-//   }, [loading]);
-else{
-  return (
-    <div>
-      {activeTab !== "landingPage" && <NavigationBar />}
-      {activeTab === "landingPage" && <Home />}
-      {activeTab === "ShoppingPage" && <Shop />}
-    </div>
-  );
-}
+  if (loading) {
+    return (
+      <div>
+        <KrishnaAnimation />
+      </div>
+    );
+  } else {
+    return (
+      <div>
+        {activeTab !== "landingPage" && <NavigationBar />}
+        {activeTab === "landingPage" && <Home />}
+        {activeTab === "selectedCardPage" && <ProductInfo />}
+        {activeTab === "ShoppingPage" && <Shop />}
+      </div>
+    );
+  }
 };
