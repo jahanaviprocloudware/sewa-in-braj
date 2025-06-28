@@ -72,7 +72,7 @@ export const reducerData = [
     "name": "Radharani dolls",
     "price": " ₹1100",
     "description": "Single ₹1100, Radha Krishna pair ₹2000, Krishna Balram pair ₹2000",
-    "img": [radharanilogo,radharaniDoll,radhakrishna,krishnaBalram],
+    "img": [radharaniDoll,radhakrishna,krishnaBalram],
     "description2": "Delicately made dolls symbolizing devotion and divine love.",
     "moreInfo": `
         Length: "47 cm / 18.5 inches",
@@ -84,7 +84,7 @@ export const reducerData = [
     "name": "Jagannath Baldev Subhadra Mayia dolls",
     "price": "₹3000",
     "description": "Set of 3 with sofa set ₹500 extra",
-    "img": [jagarnathlogo,jagranathgdoll, baldev, subadramaiya],
+    "img": [jagranathgdoll, baldev, subadramaiya],
     "description2": "Complete deity set perfect for home altars and temple use.",
     "moreInfo": `
     For Jagannath Baldev:,
