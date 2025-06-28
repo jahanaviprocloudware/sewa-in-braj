@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sewa-in-braj/static/css/main.6f8d777b.css",
-    "main.js": "/sewa-in-braj/static/js/main.ba823176.js",
+    "main.js": "/sewa-in-braj/static/js/main.e7ff75b2.js",
     "static/js/453.e248c492.chunk.js": "/sewa-in-braj/static/js/453.e248c492.chunk.js",
     "static/media/ChatGPT Image Jun 20, 2025, 02_59_46 PM.png": "/sewa-in-braj/static/media/ChatGPT Image Jun 20, 2025, 02_59_46 PM.359edd88a2918e231b48.png",
     "static/media/jewelrymrg1.webp": "/sewa-in-braj/static/media/jewelrymrg1.a384b4cdb4ca91d7e8e1.webp",
@@ -57,11 +57,11 @@
     "static/media/background-scen.svg": "/sewa-in-braj/static/media/background-scen.d22ab31cd66fbc0bdfb5.svg",
     "index.html": "/sewa-in-braj/index.html",
     "main.6f8d777b.css.map": "/sewa-in-braj/static/css/main.6f8d777b.css.map",
-    "main.ba823176.js.map": "/sewa-in-braj/static/js/main.ba823176.js.map",
+    "main.e7ff75b2.js.map": "/sewa-in-braj/static/js/main.e7ff75b2.js.map",
     "453.e248c492.chunk.js.map": "/sewa-in-braj/static/js/453.e248c492.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f8d777b.css",
-    "static/js/main.ba823176.js"
+    "static/js/main.e7ff75b2.js"
   ]
 }
