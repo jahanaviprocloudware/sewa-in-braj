@@ -24,6 +24,10 @@ export const DrawerComponent = ({ drawerOpen, setDrawerOpen }) => {
   const dispatch = useDispatch();
   const cartItems = useSelector((state) => state.cart.items);
 
+  const message = `Hello, I'm interested in the following products:\n${cartItems
+  .map((item, index) => `${index + 1}. ${item.name}`)
+  .join("\n")}`;
+
   const handleIncrement = (id) => {
     dispatch(increaseQuantity(id));
   };
@@ -114,7 +118,7 @@ export const DrawerComponent = ({ drawerOpen, setDrawerOpen }) => {
       </div>
       <div className="drawer-bottom-actions">
         <a
-          href={`https://wa.me/918923720937?text=Hello,%20I'm%20interested%20in%20product%20ID:%20${cartItems}`}
+          href={`https://api.whatsapp.com/send?phone=918923720937&text=${encodeURIComponent(message)}`}
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp-link"

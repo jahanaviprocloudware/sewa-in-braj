@@ -50,7 +50,7 @@ export const Footer = () => {
             <div className="d-flex gap-3">
               <h5>Follow Us</h5>
               <a
-                href={`https://wa.me/918923720937?text=Hello,%20I'm%20interested%20in%20product%20ID:%20${id}`}
+                href={`https://api.whatsapp.com/send?phone=918923720937`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="whatsapp-link"
