@@ -264,11 +264,14 @@ export const reducerData = [
   {
     id: 19,
     name: "Handmade Tulsi mala",
-    price: "₹20",
+    price: "₹60",
     description: "Original hand made Tulsi mala",
     img: [],
     description2: "Handcrafted Tulsi bead malas for spiritual chanting.",
-    moreInfo: {}
+    moreInfo: `
+    Length: "23 cm / 8.5 inches",
+    single round,
+    Market Price: "₹120",`
   },
   {
     id: 20,
@@ -307,7 +310,8 @@ export const reducerData = [
     description: "Utensils for offering food",
     img: [],
     description2: "Durable steel utensils used in bhoga preparations.",
-    moreInfo: {}
+    moreInfo: `
+   `
   },
   {
     id: 24,
@@ -316,7 +320,9 @@ export const reducerData = [
     description: "Brass thali for worship",
     img: [],
     description2: "Traditional brass plate used for arti rituals.",
-    moreInfo: {}
+    moreInfo: ` Length: "17 cm / 6.5 inches",
+    Brass Arti plate,
+    Market Price: "₹1100",`
   },
   {
     id: 25,
@@ -334,7 +340,8 @@ export const reducerData = [
     description: "Sandalwood paste for forehead",
     img: [],
     description2: "Pure sandalwood paste applied as a spiritual tilak.",
-    moreInfo: {}
+    moreInfo: `70 gm pack,
+    Market Price: "₹40",`
   },
   {
     id: 27,
@@ -412,11 +419,13 @@ export const reducerData = [
   {
     id: 34,
     name: "Kartaal",
-    price: "Varies",
+    price: "₹280",
     description: "Hand cymbals for bhajans",
     img: [],
     description2: "Musical hand cymbals used during devotional singing.",
-    moreInfo: {}
+    moreInfo: `
+    Medium size,
+    Market Price: "₹400",`
   },
   {
     id: 35,
@@ -460,11 +469,13 @@ export const reducerData = [
   {
     id: 38,
     name: "Handmade painted Gopi dresses",
-    price: "₹1500",
+    price: "₹2500",
     description: "Hand-painted devotional attire",
     img: [],
     description2: "Exquisitely hand-painted dresses for Gopi idols.",
-    moreInfo: {}
+    moreInfo: `
+    All sizes available,
+    Market Price: "₹5000",`
   },
   {
     id: 39,
@@ -496,11 +507,13 @@ export const reducerData = [
   {
     id: 42,
     name: "Handmade badam oil",
-    price: "N/A",
+    price: "₹200",
     description: "Price not mentioned",
     img: [],
     description2: "Natural almond oil, handmade for wellness purposes.",
-    moreInfo: {}
+    moreInfo: `
+    5gm,
+    Market Price: "₹300",`
   },
   {
     id: 43,
@@ -527,11 +540,12 @@ export const reducerData = [
   {
     id: 45,
     name: "All-in-one book for beginners",
-    price: "₹150",
+    price: "₹275",
     description: "Introductory spiritual guidebook",
     img: [],
     description2: "Comprehensive beginner's guide to spirituality.",
-    moreInfo: {}
+    moreInfo: `
+    Market Price: "₹400",`
   },
   {
     id: 46,
