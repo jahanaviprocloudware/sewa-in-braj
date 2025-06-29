@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/sewa-in-braj/static/css/main.c1b703ee.css",
-    "main.js": "/sewa-in-braj/static/js/main.57d9c3b1.js",
+    "main.js": "/sewa-in-braj/static/js/main.9c9e9575.js",
     "static/js/453.e248c492.chunk.js": "/sewa-in-braj/static/js/453.e248c492.chunk.js",
+    "static/media/poojaThali.webp": "/sewa-in-braj/static/media/poojaThali.eba115099fb544318d51.webp",
+    "static/media/AllinOne.webp": "/sewa-in-braj/static/media/AllinOne.dd6508968cc87d7ca3fc.webp",
     "static/media/ChatGPT Image Jun 20, 2025, 02_59_46 PM.png": "/sewa-in-braj/static/media/ChatGPT Image Jun 20, 2025, 02_59_46 PM.359edd88a2918e231b48.png",
     "static/media/jewelrymrg1.webp": "/sewa-in-braj/static/media/jewelrymrg1.a384b4cdb4ca91d7e8e1.webp",
     "static/media/ladugopalheavydress2.webp": "/sewa-in-braj/static/media/ladugopalheavydress2.e471974f891f0634d784.webp",
@@ -32,6 +34,7 @@
     "static/media/baldev.webp": "/sewa-in-braj/static/media/baldev.60deab1a7c3fdf2301ef.webp",
     "static/media/Bhagvadgeeta.webp": "/sewa-in-braj/static/media/Bhagvadgeeta.57fbb062bfc967562527.webp",
     "static/media/ladugopal2.webp": "/sewa-in-braj/static/media/ladugopal2.e80613602e7711584010.webp",
+    "static/media/cowdiye.webp": "/sewa-in-braj/static/media/cowdiye.555f1dbc91c0fd1a6ebf.webp",
     "static/media/jagarnathgPlasticset.webp": "/sewa-in-braj/static/media/jagarnathgPlasticset.3d5a232122ac4fd2b9ed.webp",
     "static/media/anklets1.webp": "/sewa-in-braj/static/media/anklets1.23e3df6f34ff292af4bc.webp",
     "static/media/ladugopal1.webp": "/sewa-in-braj/static/media/ladugopal1.04fee25dc9fd8d8f93a2.webp",
@@ -39,6 +42,9 @@
     "static/media/baghvadgeeta2.webp": "/sewa-in-braj/static/media/baghvadgeeta2.b73576f08e866cc2fbcd.webp",
     "static/media/Mardanga.webp": "/sewa-in-braj/static/media/Mardanga.52019383239765e269a7.webp",
     "static/media/bangles7.webp": "/sewa-in-braj/static/media/bangles7.99d4e45039abf5aabbbf.webp",
+    "static/media/tulsiMala.webp": "/sewa-in-braj/static/media/tulsiMala.a28cb69cb47d4bbacfd5.webp",
+    "static/media/dhotiKurta.webp": "/sewa-in-braj/static/media/dhotiKurta.351ba1bd4d20fd262eb4.webp",
+    "static/media/bhogThali.webp": "/sewa-in-braj/static/media/bhogThali.6323d83e303944d5ece6.webp",
     "static/media/harmonium1.webp": "/sewa-in-braj/static/media/harmonium1.2629b9839f35a12c9b8b.webp",
     "static/media/broch1.webp": "/sewa-in-braj/static/media/broch1.8eb7b31f806ca2f6fa45.webp",
     "static/media/krishnaDoll.webp": "/sewa-in-braj/static/media/krishnaDoll.41bb2a6bc4dbe99bd134.webp",
@@ -48,20 +54,18 @@
     "static/media/bhagvadgeetalogo.webp": "/sewa-in-braj/static/media/bhagvadgeetalogo.4f2fb22b8bbf2049ecf5.webp",
     "static/media/bangleslogo.webp": "/sewa-in-braj/static/media/bangleslogo.1d5c5b757869459f5159.webp",
     "static/media/radharanilogo.webp": "/sewa-in-braj/static/media/radharanilogo.1392a11242821e392240.webp",
-    "static/media/jagarnathlogo.webp": "/sewa-in-braj/static/media/jagarnathlogo.97a7110c3f7eaa52eb01.webp",
     "static/media/earringlogo.webp": "/sewa-in-braj/static/media/earringlogo.d4c8c1d43a87520589fb.webp",
     "static/media/ribbonlogo.webp": "/sewa-in-braj/static/media/ribbonlogo.0204b089a4905efc9b14.webp",
-    "static/media/baratparalogo.webp": "/sewa-in-braj/static/media/baratparalogo.4c49e191db793ef1f376.webp",
     "static/media/gheelogo.webp": "/sewa-in-braj/static/media/gheelogo.1b730e54291ce0e5e56c.webp",
     "static/media/shankhlogo.webp": "/sewa-in-braj/static/media/shankhlogo.3090447edb9d91ec9335.webp",
     "static/media/background-scen.svg": "/sewa-in-braj/static/media/background-scen.d22ab31cd66fbc0bdfb5.svg",
     "index.html": "/sewa-in-braj/index.html",
     "main.c1b703ee.css.map": "/sewa-in-braj/static/css/main.c1b703ee.css.map",
-    "main.57d9c3b1.js.map": "/sewa-in-braj/static/js/main.57d9c3b1.js.map",
+    "main.9c9e9575.js.map": "/sewa-in-braj/static/js/main.9c9e9575.js.map",
     "453.e248c492.chunk.js.map": "/sewa-in-braj/static/js/453.e248c492.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1b703ee.css",
-    "static/js/main.57d9c3b1.js"
+    "static/js/main.9c9e9575.js"
   ]
 }
