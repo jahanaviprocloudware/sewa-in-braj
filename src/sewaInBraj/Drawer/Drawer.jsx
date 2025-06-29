@@ -24,10 +24,6 @@ export const DrawerComponent = ({ drawerOpen, setDrawerOpen }) => {
   const dispatch = useDispatch();
   const cartItems = useSelector((state) => state.cart.items);
 
-  const message = `Hello, I'm interested in the following products:\n${cartItems
-  .map((item, index) => `${index + 1}. ${item.name}`)
-  .join("\n")}`;
-
   const handleIncrement = (id) => {
     dispatch(increaseQuantity(id));
   };
@@ -40,7 +36,21 @@ export const DrawerComponent = ({ drawerOpen, setDrawerOpen }) => {
     dispatch(removeFromCart(id));
   };
 
+  const extractPrice = (price) => {
+  const match = typeof price === "string" && price.match(/\d+(?:\.\d+)?/);
+  return match ? parseFloat(match[0]) : 0;
+};
+
+  const totalPrice = cartItems.reduce(
+  (sum, item) => sum + extractPrice(item.price) * item.quantity,
+  0
+);
+
   const totalItems = cartItems.reduce((acc, item) => acc + item.quantity, 0);
+  
+  const message = `Hello, I'm interested in the following products:\n${cartItems
+  .map((item, index) => `${index + 1}. ${item.name} price: ₹${item.price} (Quantity: ${item.quantity})`)
+  .join("\n")} \nTotal Price: ₹${totalPrice.toFixed(2)}`;
 
   return (
     <Drawer
@@ -116,6 +126,9 @@ export const DrawerComponent = ({ drawerOpen, setDrawerOpen }) => {
           </List>
         )}
       </div>
+      <div className="text-end mt-3 me-3 fw-bold">
+  Total: ₹{totalPrice.toFixed(2)}
+</div>
       <div className="drawer-bottom-actions">
         <a
           href={`https://api.whatsapp.com/send?phone=918923720937&text=${JSON.stringify(encodeURIComponent(message))}`}
