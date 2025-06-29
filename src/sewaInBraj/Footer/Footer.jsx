@@ -55,7 +55,7 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 className="whatsapp-link"
               >
-                <WhatsAppIcon style={{ color: "green", marginRight: 5 }} />
+                <WhatsAppIcon style={{ color: "green", marginRight: 5 }} /> +918923720937
               </a>
               <a
                 href="https://www.instagram.com/vrindasrockband?igsh=MWhnaXZtaWQ3eGx4eA=="
