@@ -13,3 +13,40 @@
   height: 120px;
   width: 100%;
 }
+
+@keyframes borderPulse {
+  0% {
+    border-color: #e7581f; /* bright green */
+    box-shadow: 0 0 5px #e7581f;
+  }
+  50% {
+    border-color: #007bff; /* bootstrap blue */
+    box-shadow: 0 0 10px #007bff;
+  }
+  100% {
+    border-color: #e7581f;
+    box-shadow: 0 0 5px #e7581f;
+  }
+}
+
+.card-animated-border {
+  border: 3px dashed;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(90deg, #e7581f 0%, #007bff 100%);
+  animation: borderPulse 3s infinite;
+  transition: border-color 0.3s ease;
+}
+
+/* Optional: pixelated effect using box-shadow trick */
+.card-animated-border:hover {
+  border-style: dotted;
+  animation: borderPulse 2s infinite;
+  box-shadow:
+    0 0 0 1px #e7581f,
+    2px 2px 0 0 #007bff,
+    4px 0 0 0 #e7581f,
+    6px 2px 0 0 #007bff;
+}
+
+

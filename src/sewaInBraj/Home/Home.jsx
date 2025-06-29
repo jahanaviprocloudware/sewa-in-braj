@@ -1,11 +1,13 @@
 import SendIcon from "@mui/icons-material/Send";
 import { Avatar, Button } from "@mui/material";
 import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import imageFour from "../../../src/logos/ChatGPT Image Jun 20, 2025, 02_59_46 PM.png";
-import { setActivetab, setLoading } from "../app/reducer/tabSlice";
+import { setLoading } from "../app/reducer/tabSlice";
 import "./Home.css";
 export const Home = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   return (
     <div className={`container-fluid backgorund`}>
       <div className="col-12 d-flex flex-column vh-100 justify-content-center align-items-center">
@@ -29,7 +31,8 @@ export const Home = () => {
               onClick={() => {
                 dispatch(setLoading(true));
                 setTimeout(() => {
-                  dispatch(setActivetab("ShoppingPage"));
+                  // dispatch(setActivetab("ShoppingPage"));
+                  navigate(`/shop`);
                   dispatch(setLoading(false));
                 }, 1000);
               }}

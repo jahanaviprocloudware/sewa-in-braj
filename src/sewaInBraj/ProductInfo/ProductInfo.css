@@ -1,0 +1,60 @@
+.ticker-text-crousel {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  background: #111;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  border: 2px solid #000;
+}
+
+.ticker-text-crousel::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.ticker-text-crousel span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: ticker-scroll 12s linear infinite;
+}
+
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.card-top-ticker {
+  position: relative;
+  height: 15px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #007bff, #e7581f);
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  font-size: 0.75rem;
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.card-top-ticker .ticker-text-crousel {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scrollLeft 15s linear infinite;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
