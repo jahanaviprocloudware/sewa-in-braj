@@ -39,7 +39,7 @@ import ladugopalheavydress1 from '../../../logos/ladugopalheavydress1.webp';
 import jwelrymrg1 from '../../../logos/jewelrymrg1.webp';
 import ladugopalheavydress2 from '../../../logos/ladugopalheavydress2.webp';
 import ladugopalheavydress3 from '../../../logos/ladugopalheavydress3.webp';
-import jagarnathlogo from '../../../logos/jagarnathlogo.webp';
+import cowDiye from '../../../logos/cowdiye.webp';
 import radharanilogo from '../../../logos/radharanilogo.webp';
 import ribbonlogo from '../../../logos/ribbonlogo.webp';  
 import shankhlogo from '../../../logos/shankhlogo.webp';
@@ -47,8 +47,13 @@ import bangleslogo from '../../../logos/bangleslogo.webp';
 import earringlogo from '../../../logos/earringlogo.webp';
 import gheelogo from '../../../logos/gheelogo.webp';
 import bhagvadgeetalogo from '../../../logos/bhagvadgeetalogo.webp';
-import baratparalogo from '../../../logos/baratparalogo.webp';
+import AllinOne from '../../../logos/AllinOne.webp';
 import earing1 from '../../../logos/earing1.webp';
+
+import bhogThali from '../../../logos/bhogThali.webp'; 
+import dhotiKurta from '../../../logos/dhotiKurta.webp';
+import poojaThali from '../../../logos/poojaThali.webp';
+import tuliMala from '../../../logos/tulsiMala.webp';
 
 
 
@@ -230,7 +235,7 @@ export const reducerData = [
     name: "Cow dung diyas",
     price: "₹10",
     description: "Eco-friendly lamps",
-    img: [],
+    img: [{url:cowDiye}],
     description2: "Traditional cow dung lamps used in religious ceremonies.",
     moreInfo: {}
   },
@@ -239,7 +244,7 @@ export const reducerData = [
     name: "Cow dung pot",
     price: "₹50",
     description: "For Tulsi plant",
-    img: [],
+    img: [{url:tuliMala}],
     description2: "Natural cow dung pots suitable for Tulsi plants.",
     moreInfo: {}
   },
@@ -308,7 +313,7 @@ export const reducerData = [
     name: "Steel utensils for bhoga",
     price: "₹300",
     description: "Utensils for offering food",
-    img: [],
+    img: [{url:bhogThali}],
     description2: "Durable steel utensils used in bhoga preparations.",
     moreInfo: `
    `
@@ -318,7 +323,7 @@ export const reducerData = [
     name: "Pittal Arti thali",
     price: "₹1000",
     description: "Brass thali for worship",
-    img: [],
+    img: [{url: poojaThali }],
     description2: "Traditional brass plate used for arti rituals.",
     moreInfo: ` Length: "17 cm / 6.5 inches",
     Brass Arti plate,
@@ -462,7 +467,7 @@ export const reducerData = [
     name: "Dhoti kurta",
     price: "Varies",
     description: "Traditional attire",
-    img: [],
+    img: [{url:dhotiKurta}],
     description2: "Classic Indian traditional dress for men.",
     moreInfo: {}
   },
@@ -542,7 +547,7 @@ export const reducerData = [
     name: "All-in-one book for beginners",
     price: "₹275",
     description: "Introductory spiritual guidebook",
-    img: [],
+    img: [{url: AllinOne }],
     description2: "Comprehensive beginner's guide to spirituality.",
     moreInfo: `
     Market Price: "₹400",`
