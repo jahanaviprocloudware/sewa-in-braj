@@ -118,7 +118,7 @@ export const DrawerComponent = ({ drawerOpen, setDrawerOpen }) => {
       </div>
       <div className="drawer-bottom-actions">
         <a
-          href={`https://api.whatsapp.com/send?phone=918923720937&text=${encodeURIComponent(message)}`}
+          href={`https://api.whatsapp.com/send?phone=918923720937&text=${JSON.stringify(encodeURIComponent(message))}`}
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp-link"
