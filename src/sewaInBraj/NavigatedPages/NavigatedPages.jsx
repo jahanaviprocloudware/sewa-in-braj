@@ -37,7 +37,7 @@ export const NavigatedPages = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
-        <Route path="/product/:id" element={<ProductInfo />} />
+        <Route path="/product/:id" element={<ProductInfo footer={location.state?.footer}/>} />
         <Route path="/about" element={<AboutUs/>} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>

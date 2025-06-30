@@ -8,7 +8,7 @@ import { DrawerComponent } from "../Drawer/Drawer";
 import { addToCart } from "../app/reducer/addToCart";
 import "./ProductInfo.css";
 
-export const ProductInfo = () => {
+export const ProductInfo = ({ footer }) => {
   const { id: paramId } = useParams();
   const selectedData = useSelector((state) => state.users.selectedData);
   const allData = useSelector((state) => state.users.data);
@@ -19,13 +19,16 @@ export const ProductInfo = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   useEffect(() => {
-    if (!selectedData && paramId && allData.length > 0) {
+    if (footer && paramId && allData.length > 0) {
+      const found = allData.find((item) => String(item.id) === paramId);
+      setProduct(found || null);
+    } else if (!selectedData && paramId && allData.length > 0) {
       const found = allData.find((item) => String(item.id) === paramId);
       setProduct(found || null);
     } else {
       setProduct(selectedData);
     }
-  }, [selectedData, paramId, allData]);
+  }, [footer, selectedData, paramId, allData]);
 
   const { name, price, description, img, description2, moreInfo, id } =
     product || {};
@@ -43,6 +46,14 @@ export const ProductInfo = () => {
   const handleAddToCart = () => {
     dispatch(addToCart(product));
     setDrawerOpen(true);
+  };
+
+  const handleClose = () => {
+    if (footer) {
+      navigate(-1);
+    } else {
+      navigate("/shop");
+    }
   };
 
   if (!product) {
@@ -63,7 +74,7 @@ export const ProductInfo = () => {
 
           <div className="w-100 d-flex justify-content-end mb-3">
             <Button
-              onClick={() => navigate("/shop")}
+              onClick={handleClose}
               variant="outlined"
               sx={{
                 borderRadius: "50%",

@@ -1,110 +1,119 @@
-import krishnadoll from '../../../logos/krishnaDoll.webp';
-import radharaniDoll from '../../../logos/radhakrishna.webp';
-import baghvadgeeta2 from '../../../logos/baghvadgeeta2.webp';
-import anklet1 from '../../../logos/anklets1.webp';
-import baldev from '../../../logos/baldev.webp';
-import bangles1 from '../../../logos/bangles1.webp';
-import bangles2 from '../../../logos/bangles2.webp';
-import bangles3 from '../../../logos/bangles3.webp';
-import bangles4 from '../../../logos/bangles4.webp';
-import bangles5 from '../../../logos/bangles5.webp';
-import bangles6 from '../../../logos/bangles6.webp';
-import bangles7 from '../../../logos/bangles7.webp';
-import baratpara1 from '../../../logos/baratpara1.webp';
-import baratpara2 from '../../../logos/baratpara2.webp';
-import Bhagvadgeeta from '../../../logos/Bhagvadgeeta.webp';
-import broch1 from '../../../logos/broch1.webp';
-import curtn2 from '../../../logos/curtn2.webp';
-import curtn3 from '../../../logos/curtn3.webp';
-import curtn4 from '../../../logos/curtn4.webp';
-import curtn5 from '../../../logos/curtn5.webp';
-import curtn6 from '../../../logos/curtn6.webp';
-import curtn7 from '../../../logos/curtn7.webp';
-import curtn8 from '../../../logos/curtn8.webp';
-import curtn1 from '../../../logos/curtns1.webp';
-import harmonium1 from '../../../logos/harmonium1.webp';
-import harmonium2 from '../../../logos/harmonium2.webp';
-import harmonium3 from '../../../logos/harmonium3.webp';
-import jagarnathgPlasticset from '../../../logos/jagarnathgPlasticset.webp';
-import jagranathgdoll from '../../../logos/jagranathg.webp';  
-import krishnaSticker from '../../../logos/krishnaSticker.webp';
-import krishnaBalram from '../../../logos/krishnaBalram.webp'; 
-import Mardanga from '../../../logos/Mardanga.webp';
-import radhakrishna from '../../../logos/radhakrishna.webp';
-import shankh from '../../../logos/Shankh.webp';
-import subadramaiya from '../../../logos/subadramaiya.webp';
-import ladugopaldress1 from '../../../logos/ladugopal1.webp';
-import ladugopaldress2 from '../../../logos/ladugopal2.webp';
-import ladugopaldress3 from '../../../logos/ladugopal3.webp';
-import ladugopalheavydress1 from '../../../logos/ladugopalheavydress1.webp';
-import jwelrymrg1 from '../../../logos/jewelrymrg1.webp';
-import ladugopalheavydress2 from '../../../logos/ladugopalheavydress2.webp';
-import ladugopalheavydress3 from '../../../logos/ladugopalheavydress3.webp';
-import ladugopalheavydress4 from '../../../logos/ladugopalheavydress4.webp';
-import cowDiye from '../../../logos/cowdiye.webp';
-import desighee1 from '../../../logos/desighee1.webp';
-import ribbonlogo from '../../../logos/ribbonlogo.webp';  
-import shankhlogo from '../../../logos/shankhlogo.webp';
-import bangleslogo from '../../../logos/bangleslogo.webp'; 
+import krishnadoll from "../../../logos/krishnaDoll.webp";
+import radharaniDoll from "../../../logos/radhakrishna.webp";
+import baghvadgeeta2 from "../../../logos/baghvadgeeta2.webp";
+import anklet1 from "../../../logos/anklets1.webp";
+import baldev from "../../../logos/baldev.webp";
+import bangles1 from "../../../logos/bangles1.webp";
+import bangles2 from "../../../logos/bangles2.webp";
+import bangles3 from "../../../logos/bangles3.webp";
+import bangles4 from "../../../logos/bangles4.webp";
+import bangles5 from "../../../logos/bangles5.webp";
+import bangles6 from "../../../logos/bangles6.webp";
+import bangles7 from "../../../logos/bangles7.webp";
+import baratpara1 from "../../../logos/baratpara1.webp";
+import baratpara2 from "../../../logos/baratpara2.webp";
+import Bhagvadgeeta from "../../../logos/Bhagvadgeeta.webp";
+import broch1 from "../../../logos/broch1.webp";
+import curtn2 from "../../../logos/curtn2.webp";
+import curtn3 from "../../../logos/curtn3.webp";
+import curtn4 from "../../../logos/curtn4.webp";
+import curtn5 from "../../../logos/curtn5.webp";
+import curtn6 from "../../../logos/curtn6.webp";
+import curtn7 from "../../../logos/curtn7.webp";
+import curtn8 from "../../../logos/curtn8.webp";
+import curtn1 from "../../../logos/curtns1.webp";
+import harmonium1 from "../../../logos/harmonium1.webp";
+import harmonium2 from "../../../logos/harmonium2.webp";
+import harmonium3 from "../../../logos/harmonium3.webp";
+import jagarnathgPlasticset from "../../../logos/jagarnathgPlasticset.webp";
+import jagranathgdoll from "../../../logos/jagranathg.webp";
+import krishnaSticker from "../../../logos/krishnaSticker.webp";
+import krishnaBalram from "../../../logos/krishnaBalram.webp";
+import Mardanga from "../../../logos/Mardanga.webp";
+import radhakrishna from "../../../logos/radhakrishna.webp";
+import shankh from "../../../logos/Shankh.webp";
+import subadramaiya from "../../../logos/subadramaiya.webp";
+import ladugopaldress1 from "../../../logos/ladugopal1.webp";
+import ladugopaldress2 from "../../../logos/ladugopal2.webp";
+import ladugopaldress3 from "../../../logos/ladugopal3.webp";
+import ladugopalheavydress1 from "../../../logos/ladugopalheavydress1.webp";
+import jwelrymrg1 from "../../../logos/jewelrymrg1.webp";
+import jwelrymrg2 from "../../../logos/jewlrymrg2.webp";
+import ribbon1 from "../../../logos/ribbon1.webp";
+import ribbon2 from "../../../logos/ribbon2.webp";
+import ribbon3 from "../../../logos/ribbon3.webp";
+import jutePrandi from "../../../logos/jutePrandi1.webp";
+
+import ladugopalheavydress2 from "../../../logos/ladugopalheavydress2.webp";
+import ladugopalheavydress3 from "../../../logos/ladugopalheavydress3.webp";
+import ladugopalheavydress4 from "../../../logos/ladugopalheavydress4.webp";
+import cowDiye from "../../../logos/cowdiye.webp";
+import desighee1 from "../../../logos/desighee1.webp";
+import flowergarland from "../../../logos/flowergarland.webp";
+import flowergarland2 from "../../../logos/flowergarland2.webp";
+import shankhlogo from "../../../logos/shankhlogo.webp";
+import bangleslogo from "../../../logos/bangleslogo.webp";
 // import earringlogo from '../../../logos/earringlogo.webp';
-import dhessighee from '../../../logos/desighee.webp';
-import earring2 from '../../../logos/earring2.webp';
-import earing3 from '../../../logos/earring3.webp';
-import earing4 from '../../../logos/earring4.webp';
-import earing5 from '../../../logos/earring 5.webp';
+import dhessighee from "../../../logos/desighee.webp";
+import earring2 from "../../../logos/earring2.webp";
+import earing3 from "../../../logos/earring3.webp";
+import earing4 from "../../../logos/earring4.webp";
+import earing5 from "../../../logos/earring 5.webp";
 // import bhagvadgeetalogo from '../../../logos/bhagvadgeetalogo.webp';
-import AllinOne from '../../../logos/AllinOne.webp';
-import earing1 from '../../../logos/earing1.webp';
-
-import bhogThali from '../../../logos/bhogThali.webp'; 
-import dhotiKurta from '../../../logos/dhotiKurta.webp';
-import poojaThali from '../../../logos/poojaThali.webp';
-import tuliMala from '../../../logos/tulsiMala.webp';
-
-
+import AllinOne from "../../../logos/AllinOne.webp";
+import earing1 from "../../../logos/earing1.webp";
+import spirtualimage1 from "../../../logos/spirtualimage1.webp";
+import spirtualimage2 from "../../../logos/spirtualimage2.webp";
+import spirtualimage3 from "../../../logos/spirtualimage3.webp";
+import spirtualimage4 from "../../../logos/spirtualimage4.webp";
+import RadhaNammala1 from "../../../logos/RadhaNammala1.webp";
+import RadhaNammala2 from "../../../logos/RadhaNammala2.webp";
+import bhogThali from "../../../logos/bhogThali.webp";
+import dhotiKurta from "../../../logos/dhotiKurta.webp";
+import poojaThali from "../../../logos/poojaThali.webp";
+import tuliMala from "../../../logos/tulsiMala.webp";
 
 export const reducerData = [
   {
     id: 1,
     name: "Krishna dolls",
     price: "₹1100",
-    description: "Standard doll ₹1100, with extra dress ₹200 and accessories ₹100",
+    description:
+      "Standard doll ₹1100, with extra dress ₹200 and accessories ₹100",
     img: [{ url: krishnadoll }],
-    description2: "Handcrafted Krishna dolls designed for festive and spiritual decor.",
+    description2:
+      "Handcrafted Krishna dolls designed for festive and spiritual decor.",
     moreInfo: `
         Length: "47 cm / 18.5 inches",
         Breadth: "27 cm / 10.5 inches",
         Length While Sitting: "31 cm / 12 inches",
       Market Price: "₹1500",
-    `
+    `,
   },
   {
     id: 2,
     name: "Radharani dolls",
     price: " ₹1100",
-    description: "Single ₹1100, Radha Krishna pair ₹2000, Krishna Balram pair ₹2000",
+    description:
+      "Single ₹1100, Radha Krishna pair ₹2000, Krishna Balram pair ₹2000",
     img: [
       { url: radharaniDoll },
       { url: radhakrishna },
-      { url: krishnaBalram }
+      { url: krishnaBalram },
     ],
     description2: "Delicately made dolls symbolizing devotion and divine love.",
     moreInfo: `
         Length: "47 cm / 18.5 inches",
         Breadth: "27 cm / 10.5 inches",
         Length While Sitting: "31 cm / 12 inches",
-    `
+    `,
   },
   {
     id: 3,
     name: "Jagannath Baldev Subhadra Mayia dolls",
     price: "₹3000",
     description: "Set of 3 with sofa set ₹500 extra",
-    img: [
-      { url: jagranathgdoll },
-      { url: baldev },
-      { url: subadramaiya }
-    ],
+    img: [{ url: jagranathgdoll }, { url: baldev }, { url: subadramaiya }],
     description2: "Complete deity set perfect for home altars and temple use.",
     moreInfo: `
     For Jagannath Baldev:,
@@ -115,7 +124,7 @@ export const reducerData = [
         Length: "45 cm / 16.5 inches",
         Breadth: "25 cm / 8.5 inches",
         Length While Sitting: "29 cm / 10 inches",
-    `
+    `,
   },
   {
     id: 4,
@@ -126,22 +135,29 @@ export const reducerData = [
       { url: ladugopalheavydress1 },
       { url: ladugopalheavydress2 },
       { url: ladugopalheavydress3 },
-      { url: ladugopalheavydress4 }
+      { url: ladugopalheavydress4 },
     ],
-    description2: "Traditional dress for Laddu Gopal idols, enhancing their divine appearance.",
+    description2:
+      "Traditional dress for Laddu Gopal idols, enhancing their divine appearance.",
     moreInfo: `
-    available in 3 sizes: 2 3 4 5 6 7 number., you can customize the dress as per your requirement,`
+    available in 3 sizes: 2 3 4 5 6 7 number., you can customize the dress as per your requirement,`,
   },
   {
     id: 5,
     name: "Jute Prandis",
     price: "₹350",
     description: "Traditional jute prandi accessory",
-    img: [],
+    img: [
+      { url: jutePrandi },
+      { url: ribbon1 },
+      { url: ribbon2 },
+      { url: ribbon3 },
+    ],
     description2: "Elegant hair accessory used in Indian traditional attire.",
     moreInfo: `
     Length: "12 cm / 30 inches",
-    `
+    Price may vary based on customization,
+    `,
   },
   {
     id: 6,
@@ -150,20 +166,17 @@ export const reducerData = [
     description: "Hair extension accessory",
     img: [],
     description2: "Quality hair extensions for enhancing traditional looks.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 7,
     name: "Bharat Natyam prandi",
     price: "₹130",
     description: "Classical dance prandi",
-    img: [
-      { url: baratpara1 },
-      { url: baratpara2 }
-    ],
+    img: [{ url: baratpara1 }, { url: baratpara2 }],
     description2: "Accessory specifically designed for Bharat Natyam dancers.",
     moreInfo: `
-    Length: "44 cm / 17 inches",`
+    Length: "44 cm / 17 inches",`,
   },
   {
     id: 8,
@@ -172,43 +185,67 @@ export const reducerData = [
     description: "Decorative floral bangles",
     img: [],
     description2: "Beautiful floral-themed bangles for festive wear.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 9,
     name: "Flower jewelry set",
     price: "₹300",
     description: "Necklace with earrings and maang tikka",
-    img: [ { url: earing5 }],
+    img: [{ url: earing5 }],
     description2: "Coordinated floral jewelry set for special occasions.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 10,
-    name: "Flower bracelet, anklet and belt",
-    price: "₹70 - ₹100",
-    description: "Bracelet ₹100, anklet ₹100, belt ₹70",
+    name: "Anklets",
+    price: "₹170",
+    description: "Floral anklets ",
     img: [{ url: anklet1 }],
     description2: "Matching floral accessories for complete adornment.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 11,
-    name: "Ribbon mala",
-    price: "₹10 - ₹70",
-    description: "Available in ₹10, ₹20, ₹30, ₹50, ₹70",
-    img: [{ url: ribbonlogo }],
+    name: "Plastic Flower Mala",
+    price: "₹10 - ₹150",
+    description: "Available in ₹10, ₹20, ₹30, ₹50, ₹70, ₹150 according to size",
+    img: [{ url: flowergarland }, { url: flowergarland2 }],
     description2: "Colorful ribbon malas for various uses.",
-    moreInfo: {}
+    moreInfo: `
+Length 11 cm inches 4.3 ,
+Price ₹15 ,
+
+Length 15 cm 5.9 Inches,
+Price ₹20 ,
+
+Length 20 cm 7.9 inches,
+Price₹25,
+
+Length 22 cm 8.5 inches, 
+Price ₹ 30 ,
+
+Length 22 cm, 8.5 inches,
+Price₹ 35 ,
+
+Length 27 cm 10.5 inches, 
+Price₹ 40, 
+
+Length 37 cm  14.5 inches, 
+Price₹ 50,
+
+Length 111 cm 43.5 inches,
+Price ₹ 150,
+    `,
   },
   {
     id: 12,
-    name: "Plastic flower garland",
+    name: "Radha naam Plastic garland",
     price: "₹150",
     description: "With Radha naam",
-    img: [],
+    img: [{ url: RadhaNammala1 }, { url: RadhaNammala2 }],
     description2: "Durable plastic garlands featuring sacred inscriptions.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 13,
@@ -217,7 +254,7 @@ export const reducerData = [
     description: "Electronic chanting device",
     img: [],
     description2: "Device to aid in chanting and spiritual practice.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 14,
@@ -232,28 +269,28 @@ export const reducerData = [
       { url: curtn5 },
       { url: curtn6 },
       { url: curtn7 },
-      { url: curtn8 }
+      { url: curtn8 },
     ],
     description2: "Spiritual curtains featuring divine imagery.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 15,
     name: "Cow dung diyas",
     price: "₹10",
     description: "Eco-friendly lamps",
-    img: [{url:cowDiye}],
+    img: [{ url: cowDiye }],
     description2: "Traditional cow dung lamps used in religious ceremonies.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 16,
     name: "Cow dung pot",
     price: "₹50",
     description: "For Tulsi plant",
-    img: [{url:tuliMala}],
+    img: [{ url: tuliMala }],
     description2: "Natural cow dung pots suitable for Tulsi plants.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 17,
@@ -262,7 +299,7 @@ export const reducerData = [
     description: "Cup filled with havan materials",
     img: [],
     description2: "Cup containing materials essential for havan rituals.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 18,
@@ -271,7 +308,7 @@ export const reducerData = [
     description: "Pack of 20",
     img: [],
     description2: "Natural neem toothsticks for oral hygiene.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 19,
@@ -283,7 +320,7 @@ export const reducerData = [
     moreInfo: `
     Length: "23 cm / 8.5 inches",
     single round,
-    Market Price: "₹120",`
+    Market Price: "₹120",`,
   },
   {
     id: 20,
@@ -297,7 +334,7 @@ export const reducerData = [
       { url: earing4 },
     ],
     description2: "Elegant pearl and plastic earrings in assorted prices.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 21,
@@ -306,7 +343,7 @@ export const reducerData = [
     description: "Toy pram for dolls",
     img: [],
     description2: "Miniature prams designed specifically for Krishna dolls.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 22,
@@ -315,28 +352,28 @@ export const reducerData = [
     description: "Single doll ₹500, double cot ₹900",
     img: [],
     description2: "Comfortable cots available for one or two dolls.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 23,
     name: "Steel utensils for bhoga",
     price: "₹300",
     description: "Utensils for offering food",
-    img: [{url:bhogThali}],
+    img: [{ url: bhogThali }],
     description2: "Durable steel utensils used in bhoga preparations.",
     moreInfo: `
-   `
+   `,
   },
   {
     id: 24,
     name: "Pittal Arti thali",
     price: "₹1000",
     description: "Brass thali for worship",
-    img: [{url: poojaThali }],
+    img: [{ url: poojaThali }],
     description2: "Traditional brass plate used for arti rituals.",
     moreInfo: ` Length: "17 cm / 6.5 inches",
     Brass Arti plate,
-    Market Price: "₹1100",`
+    Market Price: "₹1100",`,
   },
   {
     id: 25,
@@ -345,7 +382,7 @@ export const reducerData = [
     description: "Hygienic bathing sponge",
     img: [],
     description2: "Natural and hygienic handmade luffa sponge for bathing.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 26,
@@ -355,7 +392,7 @@ export const reducerData = [
     img: [],
     description2: "Pure sandalwood paste applied as a spiritual tilak.",
     moreInfo: `70 gm pack,
-    Market Price: "₹40",`
+    Market Price: "₹40",`,
   },
   {
     id: 27,
@@ -368,7 +405,7 @@ export const reducerData = [
       { url: ladugopaldress3 },
     ],
     description2: "Handmade dresses specifically for Laddu Gopal idols.",
-    moreInfo: `available in 3 sizes: 2 3 4 5 6 7 number., you can customize the dress as per your requirement,`
+    moreInfo: `available in 3 sizes: 2 3 4 5 6 7 number., you can customize the dress as per your requirement,`,
   },
   {
     id: 28,
@@ -377,7 +414,7 @@ export const reducerData = [
     description: "Natural peacock feather",
     img: [],
     description2: "Authentic peacock feathers used in decoration and worship.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 29,
@@ -386,7 +423,7 @@ export const reducerData = [
     description: "Sizes available from ₹20 to ₹50 onwards",
     img: [],
     description2: "Traditional chammar fans used during arti ceremonies.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 30,
@@ -397,30 +434,29 @@ export const reducerData = [
     description2: "Plastic set featuring Jagannath and related deities.",
     moreInfo: `
     Length: 23 cm / 9 inches,
-    Breadth: 29cm 11 inches,`
+    Breadth: 29cm 11 inches,`,
   },
   {
     id: 31,
     name: "Bridal celebration accessories",
     price: "Varies",
-    description: "Yellow and green accessories; price depends on number of orders",
-    img: [{ url: jwelrymrg1 }],
-    description2: "Customizable bridal celebration sets tailored to order size.",
-    moreInfo: {}
+    description:
+      "Yellow and green accessories; price depends on number of orders",
+    img: [{ url: jwelrymrg1 }, { url: jwelrymrg2 }],
+    description2:
+      "Customizable bridal celebration sets tailored to order size.",
+    moreInfo: {},
   },
   {
     id: 32,
     name: "Shankh (Conchshell)",
     price: "Varies",
     description: "Spiritual conchshell for rituals",
-    img: [
-      { url: shankhlogo },
-      { url: shankh }
-    ],
+    img: [{ url: shankhlogo }, { url: shankh }],
     description2: "Sacred conchshells used in Hindu worship and ceremonies.",
     moreInfo: `
     Length: 16 cm / 6.5 inches,
-    Breadth: 26 cm / 10 inches,`
+    Breadth: 26 cm / 10 inches,`,
   },
   {
     id: 33,
@@ -429,7 +465,7 @@ export const reducerData = [
     description: "Headwear for Laddu Gopal",
     img: [{ url: ladugopaldress2 }],
     description2: "Traditional pagris designed for Laddu Gopal idols.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 34,
@@ -440,7 +476,7 @@ export const reducerData = [
     description2: "Musical hand cymbals used during devotional singing.",
     moreInfo: `
     Medium size,
-    Market Price: "₹400",`
+    Market Price: "₹400",`,
   },
   {
     id: 35,
@@ -449,18 +485,14 @@ export const reducerData = [
     description: "Traditional percussion instrument",
     img: [{ url: Mardanga }],
     description2: "Classic mridanga drum for accompanying bhajans and kirtans.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 36,
     name: "Harmonium",
     price: "Varies",
     description: "Keyboard instrument for devotional music",
-    img: [
-      { url: harmonium1 },
-      { url: harmonium2 },
-      { url: harmonium3 }
-    ],
+    img: [{ url: harmonium1 }, { url: harmonium2 }, { url: harmonium3 }],
     description2: "Portable harmonium ideal for spiritual gatherings.",
     moreInfo: `
     closed size:,
@@ -470,16 +502,16 @@ export const reducerData = [
     Length: 28 cm / 11 inches,
     Breadth: 22 cm / 56 inches,
     Upper Breadth: 56 cm / 22 inches,
-    `
+    `,
   },
   {
     id: 37,
     name: "Dhoti kurta",
-    price: "Varies",
+    price: "₹250",
     description: "Traditional attire",
-    img: [{url:dhotiKurta}],
+    img: [{ url: dhotiKurta }],
     description2: "Classic Indian traditional dress for men.",
-    moreInfo: {}
+    moreInfo: `available size 16,Market Price: "₹400",`,
   },
   {
     id: 38,
@@ -490,7 +522,7 @@ export const reducerData = [
     description2: "Exquisitely hand-painted dresses for Gopi idols.",
     moreInfo: `
     All sizes available,
-    Market Price: "₹5000",`
+    Market Price: "₹5000",`,
   },
   {
     id: 39,
@@ -499,7 +531,7 @@ export const reducerData = [
     description: "For japa chanting",
     img: [],
     description2: "Handcrafted bead bags designed to hold prayer beads.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 40,
@@ -508,7 +540,7 @@ export const reducerData = [
     description: "Pack of 50",
     img: [],
     description2: "Natural wicks bundled with tulsi sticks for havan rituals.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 41,
@@ -517,7 +549,7 @@ export const reducerData = [
     description: "Traditional handmade ghee",
     img: [{ url: dhessighee }, { url: desighee1 }],
     description2: "Authentic bilona ghee prepared using traditional methods.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 42,
@@ -528,19 +560,16 @@ export const reducerData = [
     description2: "Natural almond oil, handmade for wellness purposes.",
     moreInfo: `
     50gm,
-    Market Price: "₹300",`
+    Market Price: "₹300",`,
   },
   {
     id: 43,
     name: "Srimad Bhagavad Gita",
     price: "₹250 - ₹350",
     description: "₹250 for Hindi, ₹350 for English edition",
-    img: [
-      { url: Bhagvadgeeta },
-      { url: baghvadgeeta2 }
-    ],
+    img: [{ url: Bhagvadgeeta }, { url: baghvadgeeta2 }],
     description2: "Sacred scripture available in multiple languages.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 44,
@@ -549,17 +578,17 @@ export const reducerData = [
     description: "Small books for spiritual learning",
     img: [],
     description2: "Compact spiritual literature for daily reading.",
-    moreInfo: {}
+    moreInfo: {},
   },
   {
     id: 45,
     name: "All-in-one book for beginners",
     price: "₹275",
     description: "Introductory spiritual guidebook",
-    img: [{url: AllinOne }],
+    img: [{ url: AllinOne }],
     description2: "Comprehensive beginner's guide to spirituality.",
     moreInfo: `
-    Market Price: "₹400",`
+    Market Price: "₹400",`,
   },
   {
     id: 46,
@@ -571,13 +600,14 @@ export const reducerData = [
     moreInfo: `
     Breadth: 15 cm / 5.8 inches,
     Length  5.2cm / 2 inches,
-    `
+    `,
   },
   {
     id: 47,
     name: "Jute and cloth bangles",
     price: "₹120",
-    description: "Available in ₹50, ₹70, ₹100 as per selected material and size",
+    description:
+      "Available in ₹50, ₹70, ₹100 as per selected material and size",
     img: [
       { url: bangleslogo },
       { url: bangles1 },
@@ -586,14 +616,32 @@ export const reducerData = [
       { url: bangles4 },
       { url: bangles5 },
       { url: bangles6 },
-      { url: bangles7 }
+      { url: bangles7 },
     ],
-    description2: "Eco-friendly handcrafted bangles suitable for all occasions.",
+    description2:
+      "Eco-friendly handcrafted bangles suitable for all occasions.",
     moreInfo: `
       Sizes: ["2'2"/ "2'4"/ "2'6"],
       Material: "Plastic bangles covered with jute and added ghungroo",
       Available: ["2'2", "2'4"],
       Market Price: "₹200",
-    `
-  }
-]
+    `,
+  },
+  {
+    id: 48,
+    name: "Spiritual images",
+    price: "₹50",
+    description: "Spiritual images for worship",
+    img: [
+      { url: spirtualimage1 },
+      { url: spirtualimage2 },
+      { url: spirtualimage3 },
+      { url: spirtualimage4 },
+    ],
+    description2: "Images depicting various deities and spiritual themes.",
+    moreInfo: `
+      Breadth: 15 cm / 5.8 inches,
+      Length: 20 cm / 7.8 inches,
+    `,
+  },
+];
