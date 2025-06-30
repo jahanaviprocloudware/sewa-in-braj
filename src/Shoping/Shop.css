@@ -31,3 +31,11 @@
   }
 }
 
+.shop-header-img {
+  height: 30px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+}

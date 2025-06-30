@@ -3,6 +3,7 @@ import "./Shop.css";
 import { useEffect, useState } from "react";
 import { CardWithBody } from "./../Card/CardWithBody.tsx";
 import { DrawerComponent } from "../sewaInBraj/Drawer/Drawer.jsx";
+import { Box, Typography } from "@mui/material";
 
 export const Shop = () => {
   const { data } = useSelector((state) => state.users);
@@ -24,14 +25,27 @@ export const Shop = () => {
 
   return (
     <div className="container-fluid">
-      <h1>Shop</h1>
-      <p>Welcome to the Shop section!</p>
-      <div className="card-top-ticker-card">
-        <div className="ticker-text">
-          Shipping charges may apply based on your city and state. Delivery
-          times and fees vary. Thank you for choosing us!
-        </div>
-      </div>
+      <Typography
+        variant="subtitle1"
+        align="center"
+        color="text.secondary"
+        gutterBottom
+      >
+       <h3 className="p-3"> Browse beautiful handmade items made with love in Vrindavan ❤️</h3>
+      </Typography>
+         <Box className="card-top-ticker-card mb-4">
+        <Box className="ticker-wrapper">
+          <Box className="ticker-text">
+            🚚 Shipping charges may apply based on your city and state. Delivery
+            times and fees vary. Thank you for choosing us!
+          </Box>
+          <Box className="ticker-text">
+            🚚 Shipping charges may apply based on your city and state. Delivery
+            times and fees vary. Thank you for choosing us!
+          </Box>
+        </Box>
+      </Box>
+
       <div className="d-flex flex-sm-row justify-content-around flex-wrap card-seq">
         {cardData.length > 0 ? (
           cardData.map((item, index) => (

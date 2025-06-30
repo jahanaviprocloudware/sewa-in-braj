@@ -20,7 +20,7 @@ export const Home = () => {
             />
           </div>
           <div>
-            <h1 className="headingColor">Vrindavan Market</h1>
+            <h3 className="headingColor">Vrindavan's Market</h3>
             <h2 className="textColor">Vraha</h2>
           </div>
           <div>
@@ -31,7 +31,6 @@ export const Home = () => {
               onClick={() => {
                 dispatch(setLoading(true));
                 setTimeout(() => {
-                  // dispatch(setActivetab("ShoppingPage"));
                   navigate(`/shop`);
                   dispatch(setLoading(false));
                 }, 1000);

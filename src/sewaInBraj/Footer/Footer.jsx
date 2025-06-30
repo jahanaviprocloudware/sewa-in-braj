@@ -67,7 +67,7 @@ export const Footer = () => {
                 <InstagramIcon />
               </a>
               <a
-                href="https://youtube.com/shorts/cOa1B1aSdeI?si=0l-NQUB9sWT4BVGV"
+                href="https://youtube.com/@sevainvraja?si=y41tLs0dZmKz73vl"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white"

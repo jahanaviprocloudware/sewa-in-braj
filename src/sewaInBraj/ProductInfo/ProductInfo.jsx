@@ -3,11 +3,10 @@ import { useEffect, useMemo, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import CarouselComponent from "./../Crousel/Crousel";
-// import { addToCart } from "../app/reducer/cartSlice";
-import "./ProductInfo.css";
-import { Button } from "@mui/material";
+import { Button, Typography, Divider, Box, Fade, Paper } from "@mui/material";
 import { DrawerComponent } from "../Drawer/Drawer";
 import { addToCart } from "../app/reducer/addToCart";
+import "./ProductInfo.css";
 
 export const ProductInfo = () => {
   const { id: paramId } = useParams();
@@ -16,7 +15,7 @@ export const ProductInfo = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  const [product, setProduct] = useState(selectedData);
+  const [product, setProduct] = useState(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   useEffect(() => {
@@ -41,94 +40,95 @@ export const ProductInfo = () => {
       : [];
   }, [img]);
 
-  if (!product) {
-    return (
-      <div className="text-center mt-5">
-        No product selected or product not found
-      </div>
-    );
-  }
-
   const handleAddToCart = () => {
     dispatch(addToCart(product));
     setDrawerOpen(true);
   };
 
+  if (!product) {
+    return (
+      <div className="text-center mt-5 fade-in">
+        <Typography variant="h6">Product not found</Typography>
+        <Button variant="outlined" onClick={() => navigate("/shop")} sx={{ mt: 2 }}>
+          Back to Shop
+        </Button>
+      </div>
+    );
+  }
+
   return (
-    <div className="container-fluid">
-      <div className="row">
-        <div
-          className="col-12 d-flex flex-column justify-content-center align-items-center p-3"
-          style={{ minHeight: "100vh" }}
-        >
-          {/* Close Button */}
-          <div
-            className="w-100 d-flex justify-content-end mb-3"
-            style={{ maxWidth: "900px" }}
-          >
-            <button
-              onClick={() => navigate(`/shop`)}
-              aria-label="Close"
-              style={{
-                background: "#fff",
-                border: "1px solid #ccc",
+    <div className="container-fluid py-4 fade-in">
+      <div className="row justify-content-center">
+        <div className="col-lg-8 col-md-10 col-12 d-flex flex-column align-items-center">
+
+          <div className="w-100 d-flex justify-content-end mb-3">
+            <Button
+              onClick={() => navigate("/shop")}
+              variant="outlined"
+              sx={{
                 borderRadius: "50%",
-                width: "2.2em",
-                height: "2.2em",
-                fontSize: "1.5em",
-                cursor: "pointer",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                minWidth: "2.5rem",
+                height: "2.5rem",
+                padding: 0,
+                backgroundColor: "white",
               }}
+              className="shadow-sm"
             >
               <CloseIcon />
-            </button>
+            </Button>
           </div>
 
-          {/* Ticker */}
-          <div className="ticker-text-crousel">
+          <div className="ticker-text-crousel mb-3 shadow-sm rounded-pill px-2 py-1">
             <span>
-              Shipping charges may apply based on your city and state. Delivery
+              🚚 Shipping charges may apply based on your city and state. Delivery
               times and fees vary. Thank you for choosing us!
             </span>
           </div>
 
-          {/* Carousel */}
-          <div className="mb-4 position-relative" style={{ maxWidth: "600px", width: "100%" }}>
-            <CarouselComponent images={validImages} CardId={id} />
-            <div className="mt-3 d-flex justify-content-center">
-              <Button
-                variant="contained"
-                color="success"
-                onClick={handleAddToCart}
-              >
-                Add to Cart
-              </Button>
-            </div>
-          </div>
+          <Typography
+            variant="body2"
+            className="text-center text-muted mb-4"
+            sx={{ fontStyle: "italic", fontSize: "0.9rem" }}
+          >
+            *If the price shown in the image is different, please attach a screenshot when submitting your order.
+          </Typography>
 
-          {/* Product Info */}
-          <h1 className="text-center">{name}</h1>
-          <p className="text-center">{description}</p>
-          <p className="text-center">{description2}</p>
-          <p className="text-center fw-bold">Price: {price}</p>
-          <div>
-            {typeof moreInfo === "string"
-              ? moreInfo
-                  .split(",")
-                  .map((info, idx) => <div key={idx}>{info}</div>)
-              : null}
-          </div>
+          <Fade in={true} timeout={600}>
+            <Paper
+              elevation={3}
+              className="carousel-box p-3 mb-4 zoom-in w-100"
+              style={{ maxWidth: "600px" }}
+            >
+              <div className="w-100">
+                <CarouselComponent images={validImages} CardId={id} />
+              </div>
+              <div className="mt-3 d-flex justify-content-center">
+                <Button variant="contained" color="success" size="large" onClick={handleAddToCart}>
+                  Add to Cart
+                </Button>
+              </div>
+            </Paper>
+          </Fade>
 
-        
+          <Box className="text-center px-3 w-100 info-card shadow-sm rounded p-4 glassy" style={{ maxWidth: "750px" }}>
+            <Typography variant="h4" gutterBottom className="title-glow">{name}</Typography>
+            <Typography variant="body1" className="mb-2">{description}</Typography>
+            <Typography variant="body2" className="mb-3 text-muted">{description2}</Typography>
+            <Typography variant="h6" color="primary" className="fw-bold mb-3 price-pop">
+              Price: {price}
+            </Typography>
+            <Divider className="my-3" />
+            {typeof moreInfo === "string" &&
+              moreInfo.split(",").map((info, idx) => (
+                <Typography key={idx} variant="body2" color="text.secondary" className="mb-1">
+                  • {info.trim()}
+                </Typography>
+              ))}
+          </Box>
         </div>
       </div>
-              <div className="cursor-pointer">
-        <DrawerComponent drawerOpen={drawerOpen} setDrawerOpen={setDrawerOpen} />
-</div>
+
+      <DrawerComponent drawerOpen={drawerOpen} setDrawerOpen={setDrawerOpen} />
     </div>
-    
   );
 };

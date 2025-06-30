@@ -1,5 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/pagination';
+import './Crousel.css'; 
 
 export default function CarouselComponent({ images }) {
   const validImages = images
@@ -12,6 +15,8 @@ export default function CarouselComponent({ images }) {
         spaceBetween={10}
         slidesPerView={1}
         grabCursor={true}
+        pagination={{ clickable: true }}
+        modules={[Pagination]}
       >
         {validImages.map((image, index) => (
           <SwiperSlide key={index}>

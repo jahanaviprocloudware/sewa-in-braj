@@ -35,18 +35,24 @@ import shankh from '../../../logos/Shankh.webp';
 import subadramaiya from '../../../logos/subadramaiya.webp';
 import ladugopaldress1 from '../../../logos/ladugopal1.webp';
 import ladugopaldress2 from '../../../logos/ladugopal2.webp';
+import ladugopaldress3 from '../../../logos/ladugopal3.webp';
 import ladugopalheavydress1 from '../../../logos/ladugopalheavydress1.webp';
 import jwelrymrg1 from '../../../logos/jewelrymrg1.webp';
 import ladugopalheavydress2 from '../../../logos/ladugopalheavydress2.webp';
 import ladugopalheavydress3 from '../../../logos/ladugopalheavydress3.webp';
+import ladugopalheavydress4 from '../../../logos/ladugopalheavydress4.webp';
 import cowDiye from '../../../logos/cowdiye.webp';
-import radharanilogo from '../../../logos/radharanilogo.webp';
+import desighee1 from '../../../logos/desighee1.webp';
 import ribbonlogo from '../../../logos/ribbonlogo.webp';  
 import shankhlogo from '../../../logos/shankhlogo.webp';
 import bangleslogo from '../../../logos/bangleslogo.webp'; 
-import earringlogo from '../../../logos/earringlogo.webp';
-import gheelogo from '../../../logos/gheelogo.webp';
-import bhagvadgeetalogo from '../../../logos/bhagvadgeetalogo.webp';
+// import earringlogo from '../../../logos/earringlogo.webp';
+import dhessighee from '../../../logos/desighee.webp';
+import earring2 from '../../../logos/earring2.webp';
+import earing3 from '../../../logos/earring3.webp';
+import earing4 from '../../../logos/earring4.webp';
+import earing5 from '../../../logos/earring 5.webp';
+// import bhagvadgeetalogo from '../../../logos/bhagvadgeetalogo.webp';
 import AllinOne from '../../../logos/AllinOne.webp';
 import earing1 from '../../../logos/earing1.webp';
 
@@ -113,17 +119,18 @@ export const reducerData = [
   },
   {
     id: 4,
-    name: "Laddu Gopal pagri",
-    price: "500",
+    name: "Laddu Gopal Heavy Dress",
+    price: "₹450",
     description: "Headwear for Laddu Gopal heavy dress",
     img: [
       { url: ladugopalheavydress1 },
       { url: ladugopalheavydress2 },
-      { url: ladugopalheavydress3 }
+      { url: ladugopalheavydress3 },
+      { url: ladugopalheavydress4 }
     ],
-    description2: "Traditional pagris designed for Laddu Gopal idols.",
+    description2: "Traditional dress for Laddu Gopal idols, enhancing their divine appearance.",
     moreInfo: `
-    available in 3 sizes: 2,3,4,5,6,7 number.`
+    available in 3 sizes: 2 3 4 5 6 7 number., you can customize the dress as per your requirement,`
   },
   {
     id: 5,
@@ -172,7 +179,7 @@ export const reducerData = [
     name: "Flower jewelry set",
     price: "₹300",
     description: "Necklace with earrings and maang tikka",
-    img: [],
+    img: [ { url: earing5 }],
     description2: "Coordinated floral jewelry set for special occasions.",
     moreInfo: {}
   },
@@ -284,8 +291,10 @@ export const reducerData = [
     price: "₹20 - ₹50",
     description: "Available in ₹20, ₹30, ₹50",
     img: [
-      { url: earringlogo },
-      { url: earing1 }
+      { url: earing1 },
+      { url: earring2 },
+      { url: earing3 },
+      { url: earing4 },
     ],
     description2: "Elegant pearl and plastic earrings in assorted prices.",
     moreInfo: {}
@@ -351,14 +360,15 @@ export const reducerData = [
   {
     id: 27,
     name: "Laddu Gopal dresses",
-    price: "₹250 - ₹500",
-    description: "Starting from ₹200",
+    price: "₹350",
+    description: "dresses for Laddu Gopal idols",
     img: [
       { url: ladugopaldress1 },
-      { url: ladugopaldress2 }
+      { url: ladugopaldress2 },
+      { url: ladugopaldress3 },
     ],
     description2: "Handmade dresses specifically for Laddu Gopal idols.",
-    moreInfo: `available in 3 sizes: 2,3,4,5,6,7 number.`
+    moreInfo: `available in 3 sizes: 2 3 4 5 6 7 number., you can customize the dress as per your requirement,`
   },
   {
     id: 28,
@@ -505,7 +515,7 @@ export const reducerData = [
     name: "Pure bilona ghee",
     price: "₹1200 per kg",
     description: "Traditional handmade ghee",
-    img: [{ url: gheelogo }],
+    img: [{ url: dhessighee }, { url: desighee1 }],
     description2: "Authentic bilona ghee prepared using traditional methods.",
     moreInfo: {}
   },
@@ -517,7 +527,7 @@ export const reducerData = [
     img: [],
     description2: "Natural almond oil, handmade for wellness purposes.",
     moreInfo: `
-    5gm,
+    50gm,
     Market Price: "₹300",`
   },
   {
@@ -526,7 +536,6 @@ export const reducerData = [
     price: "₹250 - ₹350",
     description: "₹250 for Hindi, ₹350 for English edition",
     img: [
-      { url: bhagvadgeetalogo },
       { url: Bhagvadgeeta },
       { url: baghvadgeeta2 }
     ],

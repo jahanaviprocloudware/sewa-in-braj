@@ -1,6 +1,8 @@
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  filter: invert(40%) grayscale(100%);
-  background-color: rgba(128,128,128,0.2); /* optional: subtle gray bg */
-  border-radius: 50%;
+.swiper-pagination-bullet {
+  background: #fff !important;
+  border: 1px solid #ccc;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background: #555 !important;
 }

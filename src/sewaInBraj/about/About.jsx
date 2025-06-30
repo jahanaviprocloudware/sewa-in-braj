@@ -19,15 +19,24 @@ export default function AboutUs() {
       </p>
 
       <div className="about-video-container fade-in delay-4">
-        <iframe
+        {/* <iframe
           width="100%"
           height="315"
-          src="https://www.youtube.com/embed/1mR7u1bLn3g"
+          src="https://youtube.com/shorts/cOa1B1aSdeI?si=0l-NQUB9sWT4BVGV"
           title="About Our NGO - Vrindavan"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-        ></iframe>
+        ></iframe> */}
+        <iframe
+  width="100%"
+  height="315"
+  src="https://www.youtube.com/embed/cOa1B1aSdeI"
+  title="About Our NGO - Vrindavan"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
       </div>
     </div>
   );
