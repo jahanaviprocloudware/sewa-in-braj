@@ -19,9 +19,11 @@ import {
 } from "../app/reducer/addToCart";
 import CloseIcon from "@mui/icons-material/Close";
 import "./Drawer.css";
+import { useNavigate } from "react-router-dom";
 
 export const DrawerComponent = ({ drawerOpen, setDrawerOpen }) => {
   const dispatch = useDispatch();
+  const navigate = useNavigate()
   const cartItems = useSelector((state) => state.cart.items);
 
   const handleIncrement = (id) => {
@@ -82,6 +84,10 @@ export const DrawerComponent = ({ drawerOpen, setDrawerOpen }) => {
                 key={item.id}
                 className="d-flex justify-content-between align-items-start cart-item-appear"
               >
+                <span
+                style={{ cursor: "pointer" }}
+                onClick={() => navigate(`/product/${item.id}`,{state:{ footer: true }})}
+              >
                 <ListItemAvatar>
                   <Avatar
                     src={item.img[0]?.url || item.img[0] || ""}
@@ -89,6 +95,7 @@ export const DrawerComponent = ({ drawerOpen, setDrawerOpen }) => {
                     variant="rounded"
                   />
                 </ListItemAvatar>
+                </span>
                 <ListItemText
                   primary={item.name}
                   secondary={

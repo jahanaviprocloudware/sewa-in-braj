@@ -36,6 +36,7 @@ export const Footer = () => {
                         <Link
                           className="text-white"
                           to={`/product/${product.id}`}
+                          state={{ footer: true }}
                         >
                           {product.name}
                         </Link>
@@ -83,8 +84,7 @@ export const Footer = () => {
 
         <hr className="bg-secondary my-3" />
         <div className="text-center small">
-          &copy; {new Date().getFullYear()} Your Company Name. All rights
-          reserved.
+          &copy; {new Date().getFullYear()} ShriGopalCreations rights reserved.
         </div>
       </div>
     </footer>

@@ -66,7 +66,7 @@ export default function NavigationBar({ onContactClick }) {
 
   return (
     <div>
-      <AppBar position="sticky" color="default">
+      <AppBar position="fixed" color="default">
         <Toolbar sx={{ justifyContent: "space-between" }}>
           {isMobile ? (
             <>

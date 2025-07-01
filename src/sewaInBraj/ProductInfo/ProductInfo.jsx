@@ -1,20 +1,22 @@
 import CloseIcon from "@mui/icons-material/Close";
 import { useEffect, useMemo, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate, useParams } from "react-router-dom";
+import { useLocation, useNavigate, useParams } from "react-router-dom";
 import CarouselComponent from "./../Crousel/Crousel";
 import { Button, Typography, Divider, Box, Fade, Paper } from "@mui/material";
 import { DrawerComponent } from "../Drawer/Drawer";
 import { addToCart } from "../app/reducer/addToCart";
 import "./ProductInfo.css";
 
-export const ProductInfo = ({ footer }) => {
+export const ProductInfo = () => {
   const { id: paramId } = useParams();
   const selectedData = useSelector((state) => state.users.selectedData);
   const allData = useSelector((state) => state.users.data);
   const navigate = useNavigate();
   const dispatch = useDispatch();
-
+  const location = useLocation();
+  const footer = location.state?.footer === true
+console.log("Footer state:", footer);
   const [product, setProduct] = useState(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -49,11 +51,7 @@ export const ProductInfo = ({ footer }) => {
   };
 
   const handleClose = () => {
-    if (footer) {
-      navigate(-1);
-    } else {
-      navigate("/shop");
-    }
+     navigate(-1);
   };
 
   if (!product) {
