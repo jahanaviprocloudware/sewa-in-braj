@@ -138,7 +138,7 @@ export const DrawerComponent = ({ drawerOpen, setDrawerOpen }) => {
 </div>
       <div className="drawer-bottom-actions">
         <a
-          href={`https://api.whatsapp.com/send?phone=918923720937&text=${JSON.stringify(encodeURIComponent(message))}`}
+          href={cartItems.length > 0 && `https://api.whatsapp.com/send?phone=918923720937&text=${JSON.stringify(encodeURIComponent(message))}`}
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp-link"
@@ -147,6 +147,7 @@ export const DrawerComponent = ({ drawerOpen, setDrawerOpen }) => {
             className="animated-btn"
             variant="contained"
             color="primary"
+            disabled={cartItems.length === 0}
             fullWidth
           >
             Click to buy

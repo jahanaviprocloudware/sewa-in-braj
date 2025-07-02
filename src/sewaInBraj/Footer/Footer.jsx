@@ -84,7 +84,23 @@ export const Footer = () => {
 
         <hr className="bg-secondary my-3" />
         <div className="text-center small">
-          &copy; {new Date().getFullYear()} ShriGopalCreations rights reserved.
+          &copy; {new Date().getFullYear()} Sril Gopal Creations rights
+          reserved.
+        </div>
+        <hr className="bg-secondary my-3" />
+        <div className="bg-light text-center py-3 small text-muted">
+          Handmade with ❤️ by{" "}
+          <a
+            href="https://wa.me/918725969689"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#25D366",
+              textDecoration: "none",
+            }}
+          >
+            Jahanavi Sharma
+          </a>
         </div>
       </div>
     </footer>

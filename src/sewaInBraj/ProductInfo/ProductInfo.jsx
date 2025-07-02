@@ -16,7 +16,7 @@ export const ProductInfo = () => {
   const dispatch = useDispatch();
   const location = useLocation();
   const footer = location.state?.footer === true
-console.log("Footer state:", footer);
+  
   const [product, setProduct] = useState(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
 

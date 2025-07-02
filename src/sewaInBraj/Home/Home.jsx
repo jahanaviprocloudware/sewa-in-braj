@@ -2,7 +2,7 @@ import SendIcon from "@mui/icons-material/Send";
 import { Avatar, Button } from "@mui/material";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import imageFour from "../../../src/logos/ChatGPT Image Jun 20, 2025, 02_59_46 PM.png";
+import logo from "../../../src/logos/logo.webp";
 import { setLoading } from "../app/reducer/tabSlice";
 import "./Home.css";
 export const Home = () => {
@@ -15,13 +15,13 @@ export const Home = () => {
           <div className="headingColor">
             <Avatar
               alt="Vrindavan Market"
-              src={imageFour}
+              src={logo}
               sx={{ width: 65, height: 65 }}
             />
           </div>
           <div>
             <h3 className="headingColor">Vrindavan's Market</h3>
-            <h2 className="textColor">Vraha</h2>
+            <h2 className="textColor">Sril Gopal Creations</h2>
           </div>
           <div>
             <Button
