@@ -91,7 +91,7 @@ import braclate from "../../../logos/braclate.webp";
 
 export const reducerData = [
   {
-    id: `${new Date()}1`,
+    id: `1`,
     name: "Krishna dolls",
     price: "₹1100",
     description:
@@ -107,7 +107,7 @@ export const reducerData = [
       `,
   },
   {
-    id: `${new Date()}2`,
+    id: `2`,
     name: "Radharani dolls",
     price: "₹1100",
     description:
@@ -126,7 +126,7 @@ export const reducerData = [
     `,
   },
   {
-    id: `${new Date()}3`,
+    id: `3`,
     name: "Jagannath Baldev Subhadra Mayia dolls",
     price: "₹3000",
     description: "Set of 3 with sofa set ₹500 extra",
@@ -145,7 +145,7 @@ export const reducerData = [
     `,
   },
   {
-    id: `${new Date()}4`,
+    id: `4`,
     name: "Laddu Gopal Heavy Dress",
     price: "₹450",
     description: "Headwear for Laddu Gopal heavy dress",
@@ -161,7 +161,7 @@ export const reducerData = [
     Available in sizes: 2, 3, 4, 5, 6, 7. Customizable as per your requirements.`,
   },
   {
-    id: `${new Date()}5`,
+    id: `5`,
     name: "Jute Prandis",
     price: "₹350",
     description: "Traditional jute prandi accessory",
@@ -179,7 +179,7 @@ export const reducerData = [
     `,
   },
   {
-    id: `${new Date()}6`,
+    id: `6`,
     name: "Hair long accessories",
     price: "₹100",
     description: "Hair extension accessory",
@@ -189,7 +189,7 @@ export const reducerData = [
     moreInfo: {},
   },
   {
-    id: `${new Date()}7`,
+    id: `7`,
     name: "Bharat Natyam prandi",
     price: "₹150",
     description: "Classical dance prandi",
@@ -200,7 +200,7 @@ export const reducerData = [
     Length: "44 cm / 17 inches",`,
   },
   {
-    id: `${new Date()}8`,
+    id: `8`,
     name: "Hing",
     price: "₹300",
     description: "50 gm pack",
@@ -210,7 +210,7 @@ export const reducerData = [
     moreInfo: {},
   },
   {
-    id: `${new Date()}9`,
+    id: `9`,
     name: "Flower jewelry set",
     price: "₹300",
     description: "Necklace with earrings and maang tikka",
@@ -220,7 +220,7 @@ export const reducerData = [
     moreInfo: {},
   },
   {
-    id: `${new Date()}10`,
+    id: `10`,
     name: "Anklets",
     price: "₹170",
     description: "Floral anklets",
@@ -230,7 +230,7 @@ export const reducerData = [
     moreInfo: {},
   },
     {
-    id: `${new Date()}11`,
+    id: `11`,
     name: "Plastic Flower Mala",
     price: "₹10 - ₹150",
     description:
@@ -250,7 +250,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     `,
   },
   {
-    id: `${new Date()}12`,
+    id: `12`,
     name: "Radha naam Plastic garland",
     price: "₹250",
     description: "With Radha naam",
@@ -260,7 +260,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     moreInfo: `Price may vary based on size and design: ₹150/₹250`,
   },
   {
-    id: `${new Date()}13`,
+    id: `13`,
     name: "Chanting recorder",
     price: "₹120",
     description: "Electronic chanting device",
@@ -270,7 +270,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     moreInfo: {},
   },
   {
-    id: `${new Date()}14`,
+    id: `14`,
     name: "God's images on curtains",
     price: "₹250 - ₹400",
     description: "Available in 2 sizes: ₹250 and ₹400",
@@ -289,7 +289,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     moreInfo: {},
   },
   {
-    id: `${new Date()}15`,
+    id: `15`,
     name: "Cow dung diyas",
     price: "₹10",
     description: "Eco-friendly lamps",
@@ -299,7 +299,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     moreInfo: {},
   },
   {
-    id: `${new Date()}16`,
+    id: `16`,
     name: "Cow dung pot",
     price: "₹50",
     description: "For Tulsi plant",
@@ -309,7 +309,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     moreInfo: {},
   },
   {
-    id: `${new Date()}17`,
+    id: `17`,
     name: "Cow dung cup with havan samagri",
     price: "₹20",
     description: "Cup filled with havan materials",
@@ -319,7 +319,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     moreInfo: {},
   },
   {
-    id: `${new Date()}18`,
+    id: `18`,
     name: "Neem datun",
     price: "₹50",
     description: "Pack of 20",
@@ -329,7 +329,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     moreInfo: {},
   },
   {
-    id: `${new Date()}19`,
+    id: `19`,
     name: "Handmade Tulsi mala",
     price: "₹60",
     description: "Original handmade Tulsi mala",
@@ -343,7 +343,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     `,
   },
   {
-    id: `${new Date()}20`,
+    id: `20`,
     name: "Pearl/plastic earrings",
     price: "₹20 - ₹50",
     description: "Available in ₹20, ₹30, ₹50",
@@ -358,7 +358,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     moreInfo: {},
   },
     {
-    id: `${new Date()}21`,
+    id: `21`,
     name: "Pram for Krishna dolls",
     price: "₹1000",
     description:
@@ -368,7 +368,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Miniature prams designed specifically for Krishna dolls. They enhance the display and provide an authentic touch to your devotional setup.",
   },
   {
-    id: `${new Date()}22`,
+    id: `22`,
     name: "Cot for dolls",
     price: "₹500 - ₹900",
     description:
@@ -378,7 +378,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Comfortable and charming cots crafted for one or two dolls, perfect for home altar arrangements and festive decor.",
   },
   {
-    id: `${new Date()}23`,
+    id: `23`,
     name: "Steel utensils for bhoga",
     price: "₹300",
     description:
@@ -388,7 +388,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Durable steel utensils designed specifically for offering bhoga. Practical and spiritually respectful, they are essential for puja preparations.",
   },
   {
-    id: `${new Date()}24`,
+    id: `24`,
     name: "Pittal Arti thali",
     price: "₹1000",
     description:
@@ -398,7 +398,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Traditional brass plate used during arti rituals. Its intricate design and quality craftsmanship make it ideal for daily worship or special occasions.",
   },
   {
-    id: `${new Date()}25`,
+    id: `25`,
     name: "Handmade lufa",
     price: "₹40",
     description:
@@ -408,7 +408,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Natural and hygienic handmade luffa sponge perfect for bathing. Eco-friendly and gentle on the skin, it supports wellness and cleanliness.",
   },
   {
-    id: `${new Date()}26`,
+    id: `26`,
     name: "Chandan tilak",
     price: "₹15",
     description:
@@ -418,7 +418,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Pure sandalwood paste applied as a spiritual tilak. It cools the skin, calms the mind, and symbolizes purity and devotion.",
   },
   {
-    id: `${new Date()}27`,
+    id: `27`,
     name: "Laddu Gopal dresses",
     price: "₹350",
     description:
@@ -432,7 +432,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Handmade dresses tailored specifically for Laddu Gopal idols. Available in multiple sizes and customizable to meet your devotional preferences.",
   },
   {
-    id: `${new Date()}28`,
+    id: `28`,
     name: "Peacock feathers",
     price: "₹10 each",
     description:
@@ -442,7 +442,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Authentic peacock feathers used in decoration and worship. Symbolic of beauty and spirituality, they enhance your devotional environment.",
   },
   {
-    id: `${new Date()}29`,
+    id: `29`,
     name: "Chammar for arti",
     price: "₹100 - ₹500",
     description:
@@ -452,7 +452,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Traditional chammar fans used during arti ceremonies to honor deities. Crafted for durability and ceremonial elegance.",
   },
   {
-    id: `${new Date()}30`,
+    id: `30`,
     name: "Jagannath plastic set",
     price: "₹500",
     description:
@@ -462,7 +462,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Plastic set featuring Jagannath and related deities. Lightweight, durable, and perfect for both home worship and gifting.",
   },
     {
-    id: `${new Date()}31`,
+    id: `31`,
     name: "Bridal celebration accessories",
     price: "Varies",
     description:
@@ -472,7 +472,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Customizable bridal celebration sets tailored to your specific order size. Perfect for adding color and tradition to weddings and festivities.",
   },
   {
-    id: `${new Date()}32`,
+    id: `32`,
     name: "Shankh (Conchshell)",
     price: "Varies",
     description:
@@ -485,7 +485,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     Breadth: 26 cm / 10 inches,`,
   },
   {
-    id: `${new Date()}33`,
+    id: `33`,
     name: "Laddu Gopal pagri",
     price: "Varies",
     description:
@@ -495,7 +495,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Traditional pagris designed specifically for Laddu Gopal idols. Adds a royal and festive touch to the divine appearance.",
   },
   {
-    id: `${new Date()}34`,
+    id: `34`,
     name: "Kartaal",
     price: "₹280",
     description:
@@ -508,7 +508,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     Market Price: "₹400",`,
   },
   {
-    id: `${new Date()}35`,
+    id: `35`,
     name: "Mridanga",
     price: "Varies",
     description:
@@ -518,7 +518,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Classic mridanga drum used to accompany bhajans and kirtans. Rich in sound and craftsmanship, ideal for spiritual music sessions.",
   },
   {
-    id: `${new Date()}36`,
+    id: `36`,
     name: "Harmonium",
     price: "Varies",
     description:
@@ -537,7 +537,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     `,
   },
   {
-    id: `${new Date()}37`,
+    id: `37`,
     name: "Dhoti kurta",
     price: "₹250",
     description:
@@ -548,7 +548,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     moreInfo: `Available size 16, Market Price: "₹400",`,
   },
   {
-    id: `${new Date()}38`,
+    id: `38`,
     name: "Handmade painted Gopi dresses",
     price: "₹2500",
     description:
@@ -561,7 +561,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     Market Price: "₹5000",`,
   },
   {
-    id: `${new Date()}39`,
+    id: `39`,
     name: "Handmade painted bead bags",
     price: "₹300",
     description:
@@ -572,7 +572,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     moreInfo: `Depends on size and design,`,
   },
   {
-    id: `${new Date()}40`,
+    id: `40`,
     name: "Wicks with tulsi sticks",
     price: "₹100",
     description:
@@ -582,7 +582,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Natural wicks bundled with tulsi sticks for havan rituals. Combines tradition with purity for ceremonial use.",
   },
     {
-    id: `${new Date()}41`,
+    id: `41`,
     name: "Pure bilona ghee",
     price: "₹1600 per kg",
     description:
@@ -592,7 +592,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Authentic bilona ghee prepared using time-honored traditional methods. Known for its rich aroma and purity, ideal for cooking and rituals.",
   },
   {
-    id: `${new Date()}42`,
+    id: `42`,
     name: "Handmade badam oil",
     price: "₹200",
     description:
@@ -605,7 +605,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     Market Price: "₹300",`,
   },
   {
-    id: `${new Date()}43`,
+    id: `43`,
     name: "Srimad Bhagavad Gita",
     price: "₹250 - ₹350",
     description:
@@ -615,7 +615,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       "Sacred scripture available in multiple languages. A must-have spiritual guidebook for devotees and seekers alike.",
   },
   {
-    id: `${new Date()}44`,
+    id: `44`,
     name: "Spiritual small books",
     price: "₹20",
     description:
@@ -626,7 +626,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     moreInfo: `20 for each book,`,
   },
   {
-    id: `${new Date()}45`,
+    id: `45`,
     name: "All-in-one book for beginners",
     price: "₹300",
     description:
@@ -638,7 +638,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     Market Price: "₹400",`,
   },
   {
-    id: `${new Date()}46`,
+    id: `46`,
     name: "Stickers",
     price: "₹50",
     description:
@@ -652,11 +652,11 @@ Length 111 cm / 43.5 inches, Price ₹150,
     `,
   },
   {
-    id: `${new Date()}47`,
+    id: `47`,
     name: "Jute and cloth bangles",
     price: "₹120",
     description:
-      "Available in ₹50, ₹70, ₹100 as per selected material and size. A beautiful and thoughtful addition to your spiritual or festive collection.",
+      "Available in ₹50 ₹70 ₹100 as per selected material and size. A beautiful and thoughtful addition to your spiritual or festive collection.",
     img: [
       { url: bangleslogo },
       { url: bangles1 },
@@ -670,14 +670,14 @@ Length 111 cm / 43.5 inches, Price ₹150,
     description2:
       "Eco-friendly handcrafted bangles made with jute and cloth, adorned with ghungroos. Stylish and sustainable for all occasions.",
     moreInfo: `
-      Sizes: ["2'2", "2'4", "2'6"],
+      Sizes: ["2'2" "2'4" "2'6"],
       Material: "Plastic bangles covered with jute and added ghungroo",
-      Available: ["2'2", "2'4"],
+      Available: ["2'2" "2'4"],
       Market Price: "₹200",
     `,
   },
   {
-    id: `${new Date()}48`,
+    id: `48`,
     name: "Spiritual images",
     price: "₹50 each",
     description:
@@ -697,7 +697,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     `,
   },
   {
-    id: `${new Date()}49`,
+    id: `49`,
     name: "Thread Bracelet",
     price: "",
     description: " ",

@@ -16,7 +16,7 @@ export const ProductInfo = () => {
   const dispatch = useDispatch();
   const location = useLocation();
   const footer = location.state?.footer === true
-  
+
   const [product, setProduct] = useState(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -108,7 +108,7 @@ export const ProductInfo = () => {
               className="carousel-box p-3 mb-4 zoom-in w-100"
               style={{ maxWidth: "600px" }}
             >
-              <div className="w-100">
+              <div className="w-100" >
                 <CarouselComponent images={validImages} CardId={id} />
               </div>
               <div className="mt-3 d-flex justify-content-center">

@@ -23,7 +23,8 @@ export const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-8">
-            <h5 className="mb-3">Our Products</h5>
+            <h5 className="mb-3">Our Products {`(${products.length} Products)`}</h5>
+            
             <div className="row">
               {columns.map((col, colIndex) => (
                 <div key={colIndex} className="col-4">

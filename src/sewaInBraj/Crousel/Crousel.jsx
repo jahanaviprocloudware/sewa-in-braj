@@ -23,13 +23,12 @@ export default function CarouselComponent({ images }) {
             <img
               src={image.url}
               alt={`Slide ${index + 1}`}
-              // style={{
-              //   width: '100%',
-              //   height: 'auto',
-              //   borderRadius: '8px',
-              //   objectFit: 'contain',
-              // }}
-              className='carousel-image'
+              style={{
+                width: '100%',
+                height: '100%',
+                borderRadius: '8px',
+                objectFit: 'contain',
+              }}
             />
           </SwiperSlide>
         ))}
