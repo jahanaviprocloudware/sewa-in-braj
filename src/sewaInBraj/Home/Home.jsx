@@ -4,8 +4,8 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import logo from "../../../src/logos/logo.webp";
 import { setLoading } from "../app/reducer/tabSlice";
-import logo1 from '../../../src/logos/logo1.svg';
 import "./Home.css";
+
 export const Home = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
