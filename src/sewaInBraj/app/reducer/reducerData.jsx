@@ -88,6 +88,9 @@ import spritualBooks from "../../../logos/spritualBooks.webp";
 import id22 from "../../../logos/1d22.webp";
 import id40 from "../../../logos/id40.webp";
 import braclate from "../../../logos/braclate.webp";
+import neck3 from '../../../logos/neck3.webp'
+import neck2 from '../../../logos/neck2.webp'
+import neck1 from '../../../logos/neck1.webp'
 
 export const reducerData = [
   {
@@ -158,7 +161,7 @@ export const reducerData = [
     description2:
       "Traditional and ornate dress sets for Laddu Gopal idols. Enhances the divine appearance and adds richness to festive occasions and daily worship.",
     moreInfo: `
-    Available in sizes: 2, 3, 4, 5, 6, 7. Customizable as per your requirements.`,
+    Available in sizes: 2 3 4 5 6 7. Customizable as per your requirements.`,
   },
   {
     id: `5`,
@@ -185,7 +188,7 @@ export const reducerData = [
     description: "Hair extension accessory",
     img: [{url:prandi}],
     description2:
-      "Quality hair extensions designed to enhance traditional hairstyles, ideal for festive events and classical dance performances.",
+      "Quality hair decorative designed to enhance traditional hairstyles, ideal for festive events and classical dance performances.",
     moreInfo: {},
   },
   {
@@ -214,7 +217,7 @@ export const reducerData = [
     name: "Flower jewelry set",
     price: "₹300",
     description: "Necklace with earrings and maang tikka",
-    img: [{ url: earing5 }],
+    img: [{url:neck1},{url:neck2},{url:neck3}],
     description2:
       "Coordinated floral jewelry sets ideal for special occasions, weddings, and festivals. Adds a natural and elegant touch to traditional outfits.",
     moreInfo: {},
@@ -223,21 +226,21 @@ export const reducerData = [
     id: `10`,
     name: "Anklets",
     price: "₹170",
-    description: "Floral anklets",
+    description: "Flower anklets with colorfull ghungroo",
     img: [{ url: anklet1 }],
     description2:
-      "Delicate floral anklets that beautifully complement festive and traditional attire. Lightweight and comfortable for all-day wear.",
+      "Delicate flower anklets that beautifully complement festive and traditional attire. Lightweight and comfortable for all-day wear.",
     moreInfo: {},
   },
     {
     id: `11`,
-    name: "Plastic Flower Mala",
-    price: "₹10 - ₹150",
+    name: "Ribbon Mala",
+    price: "₹15 - ₹150",
     description:
       "Available in ₹10, ₹20, ₹30, ₹50, ₹70, ₹150 according to size",
     img: [{ url: flowergarland }, { url: flowergarland2 }],
     description2:
-      "Vibrant and colorful plastic flower malas perfect for decorative use in festivals, ceremonies, or everyday devotional settings. Various sizes to suit your needs.",
+      "Vibrant and colorful ribbon malas perfect for decorative use in festivals, ceremonies, or everyday devotional settings. Various sizes to suit your needs.",
     moreInfo: `
 Length 11 cm / 4.3 inches, Price ₹15,
 Length 15 cm / 5.9 inches, Price ₹20,
@@ -245,14 +248,14 @@ Length 20 cm / 7.9 inches, Price ₹25,
 Length 22 cm / 8.5 inches, Price ₹30,
 Length 22 cm / 8.5 inches, Price ₹35,
 Length 27 cm / 10.5 inches, Price ₹40,
-Length 37 cm / 14.5 inches, Price ₹50,
+Length 37 cm / 14.5 inches, Price ₹70,
 Length 111 cm / 43.5 inches, Price ₹150,
     `,
   },
   {
     id: `12`,
-    name: "Radha naam Plastic garland",
-    price: "₹250",
+    name: "Radha Naam ribbon garland",
+    price: "₹150 - ₹250",
     description: "With Radha naam",
     img: [{ url: RadhaNammala1 }, { url: RadhaNammala2 }],
     description2:
@@ -286,7 +289,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     ],
     description2:
       "Spiritual curtains featuring divine imagery of deities. Enhance your sacred spaces with these vibrant and meaningful decorative fabrics.",
-    moreInfo: {},
+    moreInfo: `avaliable in 3 sizes`,
   },
   {
     id: `15`,
@@ -344,7 +347,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
   },
   {
     id: `20`,
-    name: "Pearl/plastic earrings",
+    name: "Earrings",
     price: "₹20 - ₹50",
     description: "Available in ₹20, ₹30, ₹50",
     img: [
@@ -352,6 +355,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
       { url: earring2 },
       { url: earing3 },
       { url: earing4 },
+      { url: earing5 }
     ],
     description2:
       "Elegant pearl and plastic earrings in assorted designs and prices. Perfect for everyday wear or festive occasions.",
@@ -539,13 +543,13 @@ Length 111 cm / 43.5 inches, Price ₹150,
   {
     id: `37`,
     name: "Dhoti kurta",
-    price: "₹250",
+    price: "₹250 - varies",
     description:
       "Traditional attire. A beautiful and thoughtful addition to your spiritual or festive collection.",
     img: [{ url: dhotiKurta }],
     description2:
       "Classic Indian traditional dress for men. Comfortable and elegant for festivals, rituals, and cultural occasions.",
-    moreInfo: `Available size 16, Market Price: "₹400",`,
+    moreInfo: `Available in all sizes,`,
   },
   {
     id: `38`,
@@ -586,7 +590,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     name: "Pure bilona ghee",
     price: "₹1600 per kg",
     description:
-      "Traditional handmade ghee. A beautiful and thoughtful addition to your spiritual or festive collection.",
+      "Traditional handmade ghee.",
     img: [{ url: dhessighee }, { url: desighee1 }],
     description2:
       "Authentic bilona ghee prepared using time-honored traditional methods. Known for its rich aroma and purity, ideal for cooking and rituals.",
@@ -596,10 +600,10 @@ Length 111 cm / 43.5 inches, Price ₹150,
     name: "Handmade badam oil",
     price: "₹200",
     description:
-      "Good for health. A beautiful and thoughtful addition to your spiritual or festive collection.",
+      "Good for health and hair growth.",
     img: [{ url: badamoil }],
     description2:
-      "Natural almond (badam) oil, handmade to preserve nutrients. Excellent for skin care, massage, and overall wellness.",
+      "Natural almond (badam) oil, handmade to preserve nutrients. Excellent for skin care, hair care, massage, and overall wellness.",
     moreInfo: `
     50gm,
     Market Price: "₹300",`,
@@ -699,8 +703,8 @@ Length 111 cm / 43.5 inches, Price ₹150,
   {
     id: `49`,
     name: "Thread Bracelet",
-    price: "",
-    description: " ",
+    price: "₹25",
+    description: "Handmade thread bracelet",
     img: [
       { url: braclate },
     ],

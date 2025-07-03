@@ -10,7 +10,7 @@ export const Home = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   return (
-    <div className={`container-fluid backgorund`}>
+    <div className={`container-fluid backgorund mt-2`}>
       <div className="col-12 d-flex flex-column vh-100 justify-content-center align-items-center backgorund2">
         
         <div className="d-flex align-items-end gap">
