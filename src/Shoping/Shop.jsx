@@ -7,14 +7,20 @@ import { Box, Typography } from "@mui/material";
 
 export const Shop = () => {
   const { data = [] } = useSelector((state) => state.users);
-  const { itemsearch = "" } = useSelector((state) => state.activeTabs);
+ const { itemsearch } = useSelector((state) => state.activeTabs);
   const [cardData, setCardData] = useState(data);
   const [drawerOpen, setDrawerOpen] = useState(false);
 
-  useEffect(() => {
+useEffect(() => {
+    if (itemsearch?.length > 0) {
+      const filteredData = data.filter((item) =>
+        item.name.toLowerCase().includes(itemsearch.toLowerCase())
+      );
+      setCardData(filteredData);
+    } else {
       setCardData(data);
-  }, [ data]);
-
+    }
+  }, [itemsearch, data]);
   return (
     <div className="shop-animated-bg container-fluid">
       <Typography

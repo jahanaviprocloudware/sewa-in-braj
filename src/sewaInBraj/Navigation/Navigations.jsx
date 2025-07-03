@@ -13,11 +13,12 @@ import {
 } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { SearchBar } from "../SearchBar/SearchBar";
 import { useLocation, useNavigate } from "react-router-dom";
 import { DrawerComponent } from "../Drawer/Drawer";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import logo from "../../logos/logo.webp";
 
 const navItems = [
   { label: "Home", value: 0, path: "/" },
@@ -27,14 +28,24 @@ const navItems = [
 ];
 
 export default function NavigationBar({ onContactClick }) {
+  const location = useLocation();
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
-  const [value, setValue] = useState(1);
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const location = useLocation();
+  const getTabValue = () => {
+  const found = navItems.find(item => item.path === location.pathname);
+  return found ? found.value : 0;
+};
+  const [value, setValue] = useState(getTabValue());
+
   const [cartDrawerOpen, setcartDrawerOpen] = useState(false);
 
   const navigate = useNavigate();
+
+  useEffect(() => {
+  const found = navItems.find(item => item.path === location.pathname);
+  setValue(found ? found.value : 0);
+}, [location.pathname]);
 
   const handleTabChange = (event, newValue) => {
     setValue(newValue);
@@ -79,6 +90,11 @@ export default function NavigationBar({ onContactClick }) {
                   sx={{ mr: 2 }}
                 >
                   <MenuIcon />
+                  <img
+                    src={logo}
+                    alt="Logo"
+                    style={{ height: '4rem', marginLeft: 10 , width:'4rem'}}
+                  />
                 </IconButton>
                 <Box sx={{ flexGrow: 1 }} />
                 {!location.pathname.startsWith("/about") && <SearchBar />}
@@ -116,6 +132,11 @@ export default function NavigationBar({ onContactClick }) {
             </>
           ) : (
             <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
+              <img
+                src={logo}
+                alt="Logo"
+                style={{ height: '4rem', marginRight: 24 ,width:'4rem'}}
+              />
               <Tabs
                 value={value}
                 onChange={handleTabChange}

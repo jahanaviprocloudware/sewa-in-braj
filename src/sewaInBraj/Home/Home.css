@@ -6,18 +6,37 @@
 }
 
 .textColor{
-    color:#222
+    color:#a8691d
 }
 
 .backgorund {
-  background-image: url('../../../src/logos/background-scen.svg');
+  background-image:
+    url('../../../src/logos/logo3.webp');
   background-repeat: no-repeat;
   background-position: top center;
   max-height: 35vh;
+  background-size: contain;      
 }
 
+
 .headingColor {
-  color: #222;
+  color: #a8691d;
    font-family: 'Luminari, fantasy', cursive;
   font-style: italic;
+}
+
+.backgorundbtnColor {
+  background: linear-gradient(90deg, #ffd9b3 0%, #ffe0b2 100%);
+  color: #a8691d !important;
+  border: none;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(168, 105, 29, 0.08);
+  transition: background 0.3s, color 0.3s;
+}
+
+
+.backgorundbtnColor:hover,
+.backgorundbtnColor:focus {
+  background: linear-gradient(90deg, #f1c88b 0%, #e4bb92 100%) !important;
+  color: #5f3a02 !important;
 }

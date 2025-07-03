@@ -13,15 +13,13 @@ export const NavigatedPages = () => {
   const { loading } = useSelector((state) => state.activeTabs);
   const location = useLocation();
 
-  // Define paths where navbar should be shown
   const showNavbarPaths = ["/shop", "/about"];
 
-  // Check if the current route matches any of them
   const shouldShowNavbar = showNavbarPaths.some(path =>
     location.pathname.startsWith(path)
   );
 
-   const footerRef = useRef(null); // create ref
+   const footerRef = useRef(null);
 
   const scrollToFooter = () => {
     footerRef.current?.scrollIntoView({ behavior: "smooth" });

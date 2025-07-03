@@ -18,15 +18,15 @@
 
 @keyframes pulseGlow {
   0% {
-    box-shadow: 0 0 5px 0 rgba(240, 175, 175, 0.4), 0 0 15px 5px #f1919e;
+    box-shadow: 0 0 5px 0 rgba(240, 204, 175, 0.4), 0 0 15px 5px #f1c491;
     border-color: #e1e5e9;
   }
   50% {
-    box-shadow: 0 0 15px 3px rgba(240, 175, 175, 0.4), 0 0 25px 10px #f1919e;
+    box-shadow: 0 0 15px 3px rgba(240, 204, 175, 0.4), 0 0 25px 10px #f1c491;
     border-color: #a38c97;
   }
   100% {
-    box-shadow: 0 0 5px 0 rgba(240, 175, 175, 0.4), 0 0 15px 5px #f1919e;
+    box-shadow: 0 0 5px 0 rgba(240, 204, 175, 0.4), 0 0 15px 5px #f1c491;
     border-color: #e1e5e9;
   }
 }

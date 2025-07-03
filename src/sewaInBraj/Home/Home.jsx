@@ -4,13 +4,15 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import logo from "../../../src/logos/logo.webp";
 import { setLoading } from "../app/reducer/tabSlice";
+import logo1 from '../../../src/logos/logo1.svg';
 import "./Home.css";
 export const Home = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   return (
     <div className={`container-fluid backgorund`}>
-      <div className="col-12 d-flex flex-column vh-100 justify-content-center align-items-center">
+      <div className="col-12 d-flex flex-column vh-100 justify-content-center align-items-center backgorund2">
+        
         <div className="d-flex align-items-end gap">
           <div className="headingColor">
             <Avatar
@@ -21,7 +23,6 @@ export const Home = () => {
           </div>
           <div>
             <h3 className="headingColor">Vrindavan's Market</h3>
-            <h2 className="textColor">Sril Gopal Creations</h2>
           </div>
           <div>
             <Button
