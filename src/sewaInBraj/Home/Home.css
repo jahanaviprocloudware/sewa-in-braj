@@ -5,23 +5,22 @@
   background-color: "white";
 }
 
-.textColor{
-    color:#a8691d
+.textColor {
+  color: #a8691d;
 }
 
 .backgorund {
-  background-image:
-    url('../../../src/logos/logo3.webp');
+  background-image: url("../../../src/logos/logo3.webp");
   background-repeat: no-repeat;
   background-position: top center;
   max-height: 35vh;
-  background-size: contain;      
+  background-size: contain;
+  margin-top: 5rem !important;
 }
-
 
 .headingColor {
   color: #a8691d;
-   font-family: 'Luminari, fantasy', cursive;
+  font-family: "Luminari, fantasy", cursive;
   font-style: italic;
 }
 
@@ -33,7 +32,6 @@
   box-shadow: 0 2px 8px rgba(168, 105, 29, 0.08);
   transition: background 0.3s, color 0.3s;
 }
-
 
 .backgorundbtnColor:hover,
 .backgorundbtnColor:focus {

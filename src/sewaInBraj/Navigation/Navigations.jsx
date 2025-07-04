@@ -97,7 +97,7 @@ export default function NavigationBar({ onContactClick }) {
                   />
                 </IconButton>
                 <Box sx={{ flexGrow: 1 }} />
-                {!location.pathname.startsWith("/about") && <SearchBar />}
+                {!location.pathname.startsWith("/about",'/') && <SearchBar />}
                 <div
                   className="p-2 d-flex justify-content-start cursor-pointer"
                   onClick={handleAddToCart}
@@ -149,7 +149,7 @@ export default function NavigationBar({ onContactClick }) {
                   <Tab key={item.value} label={item.label} />
                 ))}
               </Tabs>
-              {!location.pathname.startsWith("/about") && <SearchBar />}
+              {!location.pathname.startsWith("/about",'/') && <SearchBar />}
               <div
                 className="p-2 d-flex justify-content-start"
                 onClick={handleAddToCart}

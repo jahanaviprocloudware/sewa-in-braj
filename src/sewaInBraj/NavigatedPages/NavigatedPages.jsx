@@ -13,9 +13,14 @@ export const NavigatedPages = () => {
   const { loading } = useSelector((state) => state.activeTabs);
   const location = useLocation();
 
-  const showNavbarPaths = ["/shop", "/about"];
+  const showNavbarPaths = ["/shop", "/about",'/'];
+
+ const showFooterPath = ["/shop", "/about"]
 
   const shouldShowNavbar = showNavbarPaths.some(path =>
+    location.pathname.startsWith(path)
+  );
+  const shouldShowFooter = showFooterPath.some(path =>
     location.pathname.startsWith(path)
   );
 
@@ -39,7 +44,7 @@ export const NavigatedPages = () => {
         <Route path="/about" element={<AboutUs/>} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-      {shouldShowNavbar && <div ref={footerRef}><Footer /></div>}
+      {shouldShowFooter && <div ref={footerRef}><Footer /></div>}
     </>
   );
 };
