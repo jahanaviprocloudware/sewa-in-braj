@@ -42,6 +42,10 @@ export default function NavigationBar({ onContactClick }) {
 
   const navigate = useNavigate();
 
+  const hideSearchBar = ["/about",'/'];
+
+  const shouldShowNavbar = hideSearchBar.includes(location.pathname);
+
   useEffect(() => {
   const found = navItems.find(item => item.path === location.pathname);
   setValue(found ? found.value : 0);
@@ -97,7 +101,7 @@ export default function NavigationBar({ onContactClick }) {
                   />
                 </IconButton>
                 <Box sx={{ flexGrow: 1 }} />
-                {!location.pathname.startsWith("/about",'/') && <SearchBar />}
+                {!shouldShowNavbar && <SearchBar />}
                 <div
                   className="p-2 d-flex justify-content-start cursor-pointer"
                   onClick={handleAddToCart}
@@ -149,7 +153,7 @@ export default function NavigationBar({ onContactClick }) {
                   <Tab key={item.value} label={item.label} />
                 ))}
               </Tabs>
-              {!location.pathname.startsWith("/about",'/') && <SearchBar />}
+              {!shouldShowNavbar && <SearchBar />}
               <div
                 className="p-2 d-flex justify-content-start"
                 onClick={handleAddToCart}
