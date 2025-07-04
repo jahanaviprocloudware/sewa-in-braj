@@ -1,5 +1,6 @@
 .fade-in {
   animation: fadeIn 0.8s ease-in;
+  margin-top: 4rem;
 }
 
 .zoom-in {
