@@ -91,6 +91,11 @@ import braclate from "../../../logos/braclate.webp";
 import neck3 from '../../../logos/neck3.webp'
 import neck2 from '../../../logos/neck2.webp'
 import neck1 from '../../../logos/neck1.webp'
+import neck4 from '../../../logos/neck4.webp'
+import neck5 from '../../../logos/neck5.webp'
+import neck6 from '../../../logos/neck6.webp'
+import Hing from '../../../logos/Hing.webp'
+import Hing2 from '../../../logos/Hing2.webp'
 
 export const reducerData = [
   {
@@ -207,7 +212,7 @@ export const reducerData = [
     name: "Hing",
     price: "₹300",
     description: "50 gm pack",
-    img: [],
+    img: [{ url: Hing }, { url: Hing2 }],
     description2:
       "Pure and high-quality hing (asafoetida) essential for culinary and traditional uses. Adds authentic flavor and aids digestion in Indian cuisine.",
     moreInfo: {},
@@ -217,7 +222,7 @@ export const reducerData = [
     name: "Flower jewelry set",
     price: "₹300",
     description: "Necklace with earrings and maang tikka",
-    img: [{url:neck1},{url:neck2},{url:neck3}],
+    img: [{url:neck1},{url:neck2},{url:neck3},{url:neck4},{url:neck5},{url:neck6}],
     description2:
       "Coordinated floral jewelry sets ideal for special occasions, weddings, and festivals. Adds a natural and elegant touch to traditional outfits.",
     moreInfo: {},

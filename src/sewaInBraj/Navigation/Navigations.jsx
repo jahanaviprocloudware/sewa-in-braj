@@ -94,11 +94,11 @@ export default function NavigationBar({ onContactClick }) {
                   sx={{ mr: 2 }}
                 >
                   <MenuIcon />
-                  <img
+                 {!['/'].includes(location.pathname) && <img
                     src={logo}
                     alt="Logo"
                     style={{ height: '4rem', marginLeft: 10 , width:'4rem'}}
-                  />
+                  />}
                 </IconButton>
                 <Box sx={{ flexGrow: 1 }} />
                 {!shouldShowNavbar && <SearchBar />}
@@ -136,11 +136,11 @@ export default function NavigationBar({ onContactClick }) {
             </>
           ) : (
             <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-              <img
+             {!['/'].includes(location.pathname) && <img
                 src={logo}
                 alt="Logo"
                 style={{ height: '4rem', marginRight: 24 ,width:'4rem'}}
-              />
+              />}
               <Tabs
                 value={value}
                 onChange={handleTabChange}
