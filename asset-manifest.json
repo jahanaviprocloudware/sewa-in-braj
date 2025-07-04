@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sewa-in-braj/static/css/main.19748b01.css",
-    "main.js": "/sewa-in-braj/static/js/main.db933a5d.js",
+    "main.css": "/sewa-in-braj/static/css/main.fb41ffe8.css",
+    "main.js": "/sewa-in-braj/static/js/main.e4770df5.js",
     "static/js/453.e248c492.chunk.js": "/sewa-in-braj/static/js/453.e248c492.chunk.js",
     "static/media/poojaThali.webp": "/sewa-in-braj/static/media/poojaThali.eba115099fb544318d51.webp",
     "static/media/AllinOne.webp": "/sewa-in-braj/static/media/AllinOne.dd6508968cc87d7ca3fc.webp",
@@ -97,12 +97,12 @@
     "static/media/id40.webp": "/sewa-in-braj/static/media/id40.6bb22c4a0af957e4d763.webp",
     "static/media/shankhlogo.webp": "/sewa-in-braj/static/media/shankhlogo.3090447edb9d91ec9335.webp",
     "index.html": "/sewa-in-braj/index.html",
-    "main.19748b01.css.map": "/sewa-in-braj/static/css/main.19748b01.css.map",
-    "main.db933a5d.js.map": "/sewa-in-braj/static/js/main.db933a5d.js.map",
+    "main.fb41ffe8.css.map": "/sewa-in-braj/static/css/main.fb41ffe8.css.map",
+    "main.e4770df5.js.map": "/sewa-in-braj/static/js/main.e4770df5.js.map",
     "453.e248c492.chunk.js.map": "/sewa-in-braj/static/js/453.e248c492.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19748b01.css",
-    "static/js/main.db933a5d.js"
+    "static/css/main.fb41ffe8.css",
+    "static/js/main.e4770df5.js"
   ]
 }
