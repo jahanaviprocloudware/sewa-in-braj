@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/sewa-in-braj/static/css/main.fb41ffe8.css",
-    "main.js": "/sewa-in-braj/static/js/main.0c3480b7.js",
+    "main.js": "/sewa-in-braj/static/js/main.66118bad.js",
     "static/js/453.e248c492.chunk.js": "/sewa-in-braj/static/js/453.e248c492.chunk.js",
     "static/media/poojaThali.webp": "/sewa-in-braj/static/media/poojaThali.eba115099fb544318d51.webp",
-    "static/media/AllinOne.webp": "/sewa-in-braj/static/media/AllinOne.dd6508968cc87d7ca3fc.webp",
     "static/media/ladugopalheavydress2.webp": "/sewa-in-braj/static/media/ladugopalheavydress2.1671976be2bd68e17b81.webp",
     "static/media/ladugopalheavydress1.webp": "/sewa-in-braj/static/media/ladugopalheavydress1.c265f21693b00e7116c9.webp",
     "static/media/ladugopal3.webp": "/sewa-in-braj/static/media/ladugopal3.1d6933cf9a7fa99dbb49.webp",
@@ -25,6 +24,7 @@
     "static/media/ladugopalheavydress3.webp": "/sewa-in-braj/static/media/ladugopalheavydress3.29af585db08bd2430c9c.webp",
     "static/media/earring 5.webp": "/sewa-in-braj/static/media/earring 5.801cd0e009b3767e796c.webp",
     "static/media/jewlrymrg2.webp": "/sewa-in-braj/static/media/jewlrymrg2.656cf1e87bf8d5edd579.webp",
+    "static/media/neck4.webp": "/sewa-in-braj/static/media/neck4.1fe108d4d3cd6e53b027.webp",
     "static/media/curtn2.webp": "/sewa-in-braj/static/media/curtn2.1dc3dd152a51bafec1b4.webp",
     "static/media/RadhaNammala2.webp": "/sewa-in-braj/static/media/RadhaNammala2.9b520412a74de5c60d66.webp",
     "static/media/earring4.webp": "/sewa-in-braj/static/media/earring4.e123784c5415a78e7edc.webp",
@@ -36,6 +36,7 @@
     "static/media/subadramaiya.webp": "/sewa-in-braj/static/media/subadramaiya.a47beedf116986ea26e7.webp",
     "static/media/logo.webp": "/sewa-in-braj/static/media/logo.5a785fdd4bda713ececa.webp",
     "static/media/bangles6.webp": "/sewa-in-braj/static/media/bangles6.8a1ed9b4f8567155d4e3.webp",
+    "static/media/neck6.webp": "/sewa-in-braj/static/media/neck6.da9d9e36908fe06e135f.webp",
     "static/media/neck1.webp": "/sewa-in-braj/static/media/neck1.73211911b885bc7cea51.webp",
     "static/media/ribbon1.webp": "/sewa-in-braj/static/media/ribbon1.21f76e76d34d8a248ee1.webp",
     "static/media/jagranathg.webp": "/sewa-in-braj/static/media/jagranathg.48e67a78d98e192824e0.webp",
@@ -44,6 +45,7 @@
     "static/media/krishnaSticker.webp": "/sewa-in-braj/static/media/krishnaSticker.e5c3c1791d8458b211c1.webp",
     "static/media/gopidress.webp": "/sewa-in-braj/static/media/gopidress.93ba87fdac7ec0dce190.webp",
     "static/media/RadhaNammala1.webp": "/sewa-in-braj/static/media/RadhaNammala1.d8c11c0178e24df82093.webp",
+    "static/media/neck5.webp": "/sewa-in-braj/static/media/neck5.c1200c2c5ab59083a244.webp",
     "static/media/jutePrandi1.webp": "/sewa-in-braj/static/media/jutePrandi1.919be64a95248a7eb3cf.webp",
     "static/media/baldev.webp": "/sewa-in-braj/static/media/baldev.60deab1a7c3fdf2301ef.webp",
     "static/media/Bhagvadgeeta.webp": "/sewa-in-braj/static/media/Bhagvadgeeta.57fbb062bfc967562527.webp",
@@ -75,11 +77,13 @@
     "static/media/neck3.webp": "/sewa-in-braj/static/media/neck3.0ea7d0f4320d487e94b5.webp",
     "static/media/bhogThali.webp": "/sewa-in-braj/static/media/bhogThali.6323d83e303944d5ece6.webp",
     "static/media/havancup.webp": "/sewa-in-braj/static/media/havancup.3f5ad77b2872ed22b97e.webp",
+    "static/media/Hing2.webp": "/sewa-in-braj/static/media/Hing2.38fae3ee33b14b19461b.webp",
     "static/media/spirtualimage1.webp": "/sewa-in-braj/static/media/spirtualimage1.38582fa7f758db0a0d09.webp",
     "static/media/recorder.webp": "/sewa-in-braj/static/media/recorder.09e222d46e4b0de31cc9.webp",
     "static/media/desighee.webp": "/sewa-in-braj/static/media/desighee.602b4912d9eeea260451.webp",
     "static/media/harmonium1.webp": "/sewa-in-braj/static/media/harmonium1.2629b9839f35a12c9b8b.webp",
     "static/media/loffa.webp": "/sewa-in-braj/static/media/loffa.6bdd5fef8c72f9ee5d71.webp",
+    "static/media/AllinOne.webp": "/sewa-in-braj/static/media/AllinOne.1872be6d188506e88f45.webp",
     "static/media/neem.webp": "/sewa-in-braj/static/media/neem.232d2c51d4e8fccf5aeb.webp",
     "static/media/broch1.webp": "/sewa-in-braj/static/media/broch1.8eb7b31f806ca2f6fa45.webp",
     "static/media/badamoil.webp": "/sewa-in-braj/static/media/badamoil.7d2fa84277465ffeed65.webp",
@@ -89,6 +93,7 @@
     "static/media/harmonium2.webp": "/sewa-in-braj/static/media/harmonium2.c172b14cffc8c28b4b1a.webp",
     "static/media/spirtualimage3.webp": "/sewa-in-braj/static/media/spirtualimage3.f59b044c820c6394df03.webp",
     "static/media/cowDungPot.webp": "/sewa-in-braj/static/media/cowDungPot.6e86422a2f606a5da1d8.webp",
+    "static/media/Hing.webp": "/sewa-in-braj/static/media/Hing.b9fa97c818250bf9c316.webp",
     "static/media/pram.webp": "/sewa-in-braj/static/media/pram.41803b9c6158d998e8d0.webp",
     "static/media/Shankh.webp": "/sewa-in-braj/static/media/Shankh.d6bfd5c4a2b0709f5901.webp",
     "static/media/harmonium3.webp": "/sewa-in-braj/static/media/harmonium3.73d154491cd498ecf1bd.webp",
@@ -98,11 +103,11 @@
     "static/media/shankhlogo.webp": "/sewa-in-braj/static/media/shankhlogo.3090447edb9d91ec9335.webp",
     "index.html": "/sewa-in-braj/index.html",
     "main.fb41ffe8.css.map": "/sewa-in-braj/static/css/main.fb41ffe8.css.map",
-    "main.0c3480b7.js.map": "/sewa-in-braj/static/js/main.0c3480b7.js.map",
+    "main.66118bad.js.map": "/sewa-in-braj/static/js/main.66118bad.js.map",
     "453.e248c492.chunk.js.map": "/sewa-in-braj/static/js/453.e248c492.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb41ffe8.css",
-    "static/js/main.0c3480b7.js"
+    "static/js/main.66118bad.js"
   ]
 }
