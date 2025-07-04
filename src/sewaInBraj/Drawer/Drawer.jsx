@@ -54,6 +54,12 @@ export const DrawerComponent = ({ drawerOpen, setDrawerOpen }) => {
   .map((item, index) => `${index + 1}. ${item.name} price: ₹${item.price} (Quantity: ${item.quantity})`)
   .join("\n")} \nTotal Price: ₹${totalPrice.toFixed(2)}`;
 
+  const handleWhatsAppClick = () => {
+  const phoneNumber = "+918923720937"; 
+  const whatsappURL = cartItems.length > 0 && `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${JSON.stringify(encodeURIComponent(message))}`;
+  window.open(whatsappURL, "_blank");
+};
+
   return (
     <Drawer
       anchor="right"
@@ -137,22 +143,16 @@ export const DrawerComponent = ({ drawerOpen, setDrawerOpen }) => {
   Total: ₹{totalPrice.toFixed(2)}
 </div>
       <div className="drawer-bottom-actions">
-        <a
-          href={cartItems.length > 0 && `https://api.whatsapp.com/send?phone=918923720937&text=${JSON.stringify(encodeURIComponent(message))}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="whatsapp-link"
-        >
           <Button
             className="animated-btn"
             variant="contained"
+            onClick={handleWhatsAppClick}
             color="primary"
             disabled={cartItems.length === 0}
             fullWidth
           >
             Click to buy
           </Button>
-        </a>
       </div>
     </Drawer>
   );
