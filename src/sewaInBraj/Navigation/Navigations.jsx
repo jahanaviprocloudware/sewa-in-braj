@@ -19,6 +19,9 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { DrawerComponent } from "../Drawer/Drawer";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import logo from "../../logos/logo.webp";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 const navItems = [
   { label: "Home", value: 0, path: "/" },
@@ -131,6 +134,32 @@ export default function NavigationBar({ onContactClick }) {
                       </ListItem>
                     ))}
                   </List>
+                       <div className="d-flex gap-2">
+                      <a
+                        href="https://api.whatsapp.com/send?phone=918923720937"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="d-flex align-items-center text-decoration-none"
+                      >
+                        <WhatsAppIcon style={{ color: "green", marginLeft: '5px'}} />
+                      </a>
+                      <a
+                        href="https://www.instagram.com/vrindasrockband"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-decoration-none"
+                      >
+                        <InstagramIcon style={{ color: "rgb(215 3 197)"}} />
+                      </a>
+                      <a
+                        href="https://youtube.com/@sevainvraja"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-decoration-none"
+                      >
+                        <YouTubeIcon style={{ color: "red"}} />
+                      </a>
+                    </div>
                 </Box>
               </Drawer>
             </>
@@ -162,7 +191,9 @@ export default function NavigationBar({ onContactClick }) {
               </div>
             </Box>
           )}
+         
         </Toolbar>
+    
       </AppBar>
       <DrawerComponent
         drawerOpen={cartDrawerOpen}
