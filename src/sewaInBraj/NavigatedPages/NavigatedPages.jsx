@@ -8,6 +8,7 @@ import { ProductInfo } from "../ProductInfo/ProductInfo";
 import { Footer } from "../Footer/Footer";
 import AboutUs from "../about/About";
 import { useRef } from "react";
+import AddressForm from "../Form/AddressForm.jsx";
 
 export const NavigatedPages = () => {
   const { loading } = useSelector((state) => state.activeTabs);
@@ -42,6 +43,8 @@ export const NavigatedPages = () => {
         <Route path="/shop" element={<Shop />} />
         <Route path="/product/:id" element={<ProductInfo/>} />
         <Route path="/about" element={<AboutUs/>} />
+        <Route path="/shippingAdress" element={<AddressForm/>} />
+
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       {shouldShowFooter && <div ref={footerRef}><Footer /></div>}

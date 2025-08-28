@@ -1,102 +1,3 @@
-import krishnadoll from "../../../logos/krishnaDoll.webp";
-import radharaniDoll from "../../../logos/radhakrishna.webp";
-import baghvadgeeta2 from "../../../logos/baghvadgeeta2.webp";
-import anklet1 from "../../../logos/anklets1.webp";
-import baldev from "../../../logos/baldev.webp";
-import bangles1 from "../../../logos/bangles1.webp";
-import bangles2 from "../../../logos/bangles2.webp";
-import bangles3 from "../../../logos/bangles3.webp";
-import bangles4 from "../../../logos/bangles4.webp";
-import bangles5 from "../../../logos/bangles5.webp";
-import bangles6 from "../../../logos/bangles6.webp";
-import bangles7 from "../../../logos/bangles7.webp";
-import baratpara1 from "../../../logos/baratpara1.webp";
-import baratpara2 from "../../../logos/baratpara2.webp";
-import Bhagvadgeeta from "../../../logos/Bhagvadgeeta.webp";
-import broch1 from "../../../logos/broch1.webp";
-import curtn2 from "../../../logos/curtn2.webp";
-import curtn3 from "../../../logos/curtn3.webp";
-import curtn4 from "../../../logos/curtn4.webp";
-import curtn5 from "../../../logos/curtn5.webp";
-import curtn6 from "../../../logos/curtn6.webp";
-import curtn7 from "../../../logos/curtn7.webp";
-import curtn8 from "../../../logos/curtn8.webp";
-import curtn1 from "../../../logos/curtns1.webp";
-import harmonium1 from "../../../logos/harmonium1.webp";
-import harmonium2 from "../../../logos/harmonium2.webp";
-import harmonium3 from "../../../logos/harmonium3.webp";
-import jagarnathgPlasticset from "../../../logos/jagarnathgPlasticset.webp";
-import jagranathgdoll from "../../../logos/jagranathg.webp";
-import krishnaSticker from "../../../logos/krishnaSticker.webp";
-import krishnaBalram from "../../../logos/krishnaBalram.webp";
-import Mardanga from "../../../logos/Mardanga.webp";
-import radhakrishna from "../../../logos/radhakrishna.webp";
-import shankh from "../../../logos/Shankh.webp";
-import subadramaiya from "../../../logos/subadramaiya.webp";
-import ladugopaldress1 from "../../../logos/ladugopal1.webp";
-import ladugopaldress2 from "../../../logos/ladugopal2.webp";
-import ladugopaldress3 from "../../../logos/ladugopal3.webp";
-import ladugopalheavydress1 from "../../../logos/ladugopalheavydress1.webp";
-import jwelrymrg1 from "../../../logos/jewelrymrg1.webp";
-import jwelrymrg2 from "../../../logos/jewlrymrg2.webp";
-import ribbon1 from "../../../logos/ribbon1.webp";
-import ribbon2 from "../../../logos/ribbon2.webp";
-import ribbon3 from "../../../logos/ribbon3.webp";
-import jutePrandi from "../../../logos/jutePrandi1.webp";
-
-import ladugopalheavydress2 from "../../../logos/ladugopalheavydress2.webp";
-import ladugopalheavydress3 from "../../../logos/ladugopalheavydress3.webp";
-import ladugopalheavydress4 from "../../../logos/ladugopalheavydress4.webp";
-import cowDiye from "../../../logos/cowdiye.webp";
-import desighee1 from "../../../logos/desighee1.webp";
-import flowergarland from "../../../logos/flowergarland.webp";
-import flowergarland2 from "../../../logos/flowergarland2.webp";
-import shankhlogo from "../../../logos/shankhlogo.webp";
-import bangleslogo from "../../../logos/bangleslogo.webp";
-import dhessighee from "../../../logos/desighee.webp";
-import earring2 from "../../../logos/earring2.webp";
-import earing3 from "../../../logos/earring3.webp";
-import earing4 from "../../../logos/earring4.webp";
-import earing5 from "../../../logos/earring 5.webp";
-import AllinOne from "../../../logos/AllinOne.webp";
-import earing1 from "../../../logos/earing1.webp";
-import spirtualimage1 from "../../../logos/spirtualimage1.webp";
-import spirtualimage2 from "../../../logos/spirtualimage2.webp";
-import spirtualimage3 from "../../../logos/spirtualimage3.webp";
-import spirtualimage4 from "../../../logos/spirtualimage4.webp";
-import RadhaNammala1 from "../../../logos/RadhaNammala1.webp";
-import RadhaNammala2 from "../../../logos/RadhaNammala2.webp";
-import bhogThali from "../../../logos/bhogThali.webp";
-import dhotiKurta from "../../../logos/dhotiKurta.webp";
-import poojaThali from "../../../logos/poojaThali.webp";
-import tuliMala from "../../../logos/tulsiMala.webp";
-import badamoil from "../../../logos/badamoil.webp";
-import chantingbag from "../../../logos/chantingbag.webp";
-import gopiChandan from "../../../logos/gopiChandan.webp";
-import gopidress from "../../../logos/gopidress.webp";
-import havancup from "../../../logos/havancup.webp";
-import id29 from "../../../logos/id29.webp";
-import id34 from "../../../logos/id34.webp";
-import loffa from "../../../logos/loffa.webp";
-import neem from "../../../logos/neem.webp";
-import prandi from "../../../logos/prandi.webp";
-import pram from "../../../logos/pram.webp";
-import peacockfeather from "../../../logos/peacockfeather.webp";
-import cowDungPot from "../../../logos/cowDungPot.webp";
-import recorder from "../../../logos/recorder.webp";
-import spritualBooks from "../../../logos/spritualBooks.webp";
-import id22 from "../../../logos/1d22.webp";
-import id40 from "../../../logos/id40.webp";
-import braclate from "../../../logos/braclate.webp";
-import neck3 from '../../../logos/neck3.webp'
-import neck2 from '../../../logos/neck2.webp'
-import neck1 from '../../../logos/neck1.webp'
-import neck4 from '../../../logos/neck4.webp'
-import neck5 from '../../../logos/neck5.webp'
-import neck6 from '../../../logos/neck6.webp'
-import Hing from '../../../logos/Hing.webp'
-import Hing2 from '../../../logos/Hing2.webp'
-
 export const reducerData = [
   {
     id: `1`,
@@ -104,7 +5,7 @@ export const reducerData = [
     price: "₹1100",
     description:
       "Standard doll ₹1100, with extra dress ₹200 and accessories ₹100",
-    img: [{ url: krishnadoll }],
+    img: [{ url: "/images/krishnaDoll.webp" }],
     description2:
       "Exquisitely handcrafted Krishna dolls, perfect for festive and spiritual décor. Each doll is meticulously designed to evoke devotion and bring divine charm to your home or temple.",
     moreInfo: `
@@ -121,9 +22,9 @@ export const reducerData = [
     description:
       "Single ₹1100, Radha Krishna pair ₹2000, Krishna Balram pair ₹2000",
     img: [
-      { url: radharaniDoll },
-      { url: radhakrishna },
-      { url: krishnaBalram },
+      { url: "/images/radhakrishna.webp" },
+      { url: "/images/radhakrishna.webp" },
+      { url: "/images/krishnaBalram.webp" },
     ],
     description2:
       "Delicately crafted Radharani dolls symbolizing divine love and devotion. These figures add grace and spiritual ambiance to any altar or display.",
@@ -138,7 +39,11 @@ export const reducerData = [
     name: "Jagannath Baldev Subhadra Mayia dolls",
     price: "₹3000",
     description: "Set of 3 with sofa set ₹500 extra",
-    img: [{ url: jagranathgdoll }, { url: baldev }, { url: subadramaiya }],
+    img: [
+      { url: "/images/jagranathg.webp" },
+      { url: "/images/baldev.webp" },
+      { url: "/images/subadramaiya.webp" },
+    ],
     description2:
       "Complete deity set featuring Jagannath, Baldev, and Subhadra Mayia. Ideal for home altars and temple worship, reflecting traditional artistry and spiritual significance.",
     moreInfo: `
@@ -158,10 +63,11 @@ export const reducerData = [
     price: "₹450",
     description: "Headwear for Laddu Gopal heavy dress",
     img: [
-      { url: ladugopalheavydress1 },
-      { url: ladugopalheavydress2 },
-      { url: ladugopalheavydress3 },
-      { url: ladugopalheavydress4 },
+      { url: "/images/ladugopalheavydress1.webp" },
+      { url: "/images/ladugopalheavydress2.webp" },
+      { url: "/images/ladugopalheavydress3.webp" },
+      { url: "/images/ladugopalheavydress4.webp" },
+      {url: "/images/ladugopalheavydress5.webp"}
     ],
     description2:
       "Traditional and ornate dress sets for Laddu Gopal idols. Enhances the divine appearance and adds richness to festive occasions and daily worship.",
@@ -174,10 +80,10 @@ export const reducerData = [
     price: "₹350",
     description: "Traditional jute prandi accessory",
     img: [
-      { url: jutePrandi },
-      { url: ribbon1 },
-      { url: ribbon2 },
-      { url: ribbon3 },
+      { url: "/images/jutePrandi1.webp" },
+      { url: "/images/ribbon1.webp" },
+      { url: "/images/ribbon2.webp" },
+      { url: "/images/ribbon3.webp" },
     ],
     description2:
       "Elegant and eco-friendly jute prandi hair accessories, traditionally used in Indian attire. Perfect for adding authentic flair to devotional and cultural outfits.",
@@ -191,7 +97,7 @@ export const reducerData = [
     name: "Hair long accessories",
     price: "₹100",
     description: "Hair extension accessory",
-    img: [{url:prandi}],
+    img: [{ url: "/images/prandi.webp" }],
     description2:
       "Quality hair decorative designed to enhance traditional hairstyles, ideal for festive events and classical dance performances.",
     moreInfo: {},
@@ -201,18 +107,18 @@ export const reducerData = [
     name: "Bharat Natyam prandi",
     price: "₹150",
     description: "Classical dance prandi",
-    img: [{ url: baratpara1 }, { url: baratpara2 }],
+    img: [{ url: "/images/baratpara1.webp" }, { url: "/images/baratpara2.webp" }],
     description2:
       "Specialized prandi accessories crafted for Bharat Natyam dancers. Designed to complement classical costumes and add grace during performances.",
     moreInfo: `
-    Length: "44 cm / 17 inches",`,
+    Length: "44 cm / 17 inches"`,
   },
   {
     id: `8`,
     name: "Hing",
-    price: "₹300",
+    price: "₹800",
     description: "50 gm pack",
-    img: [{ url: Hing }, { url: Hing2 }],
+    img: [{ url: "/images/Hing.webp" }, { url: "/images/Hing2.webp" }],
     description2:
       "Pure and high-quality hing (asafoetida) essential for culinary and traditional uses. Adds authentic flavor and aids digestion in Indian cuisine.",
     moreInfo: {},
@@ -222,7 +128,14 @@ export const reducerData = [
     name: "Flower jewelry set",
     price: "₹300",
     description: "Necklace with earrings and maang tikka",
-    img: [{url:neck1},{url:neck2},{url:neck3},{url:neck4},{url:neck5},{url:neck6}],
+    img: [
+      { url: "/images/neck1.webp" },
+      { url: "/images/neck2.webp" },
+      { url: "/images/neck3.webp" },
+      { url: "/images/neck4.webp" },
+      { url: "/images/neck5.webp" },
+      { url: "/images/neck6.webp" },
+    ],
     description2:
       "Coordinated floral jewelry sets ideal for special occasions, weddings, and festivals. Adds a natural and elegant touch to traditional outfits.",
     moreInfo: {},
@@ -232,22 +145,22 @@ export const reducerData = [
     name: "Anklets",
     price: "₹170",
     description: "Flower anklets with colorfull ghungroo",
-    img: [{ url: anklet1 }],
+    img: [{ url: "/images/anklets1.webp" }],
     description2:
       "Delicate flower anklets that beautifully complement festive and traditional attire. Lightweight and comfortable for all-day wear.",
     moreInfo: {},
   },
-    {
+  {
     id: `11`,
     name: "Ribbon Mala",
-    price: "₹15 - ₹150",
+    price: "₹10 - ₹150",
     description:
       "Available in ₹10, ₹20, ₹30, ₹50, ₹70, ₹150 according to size",
-    img: [{ url: flowergarland }, { url: flowergarland2 }],
+    img: [{ url: "/images/flowergarland.webp" }, { url: "/images/flowergarland2.webp" }],
     description2:
       "Vibrant and colorful ribbon malas perfect for decorative use in festivals, ceremonies, or everyday devotional settings. Various sizes to suit your needs.",
     moreInfo: `
-Length 11 cm / 4.3 inches, Price ₹15,
+Length 11 cm / 4.3 inches, Price ₹10,
 Length 15 cm / 5.9 inches, Price ₹20,
 Length 20 cm / 7.9 inches, Price ₹25,
 Length 22 cm / 8.5 inches, Price ₹30,
@@ -262,7 +175,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     name: "Radha Naam ribbon garland",
     price: "₹150 - ₹250",
     description: "With Radha naam",
-    img: [{ url: RadhaNammala1 }, { url: RadhaNammala2 }],
+    img: [{ url: "/images/RadhaNammala1.webp" }, { url: "/images/RadhaNammala2.webp" }],
     description2:
       "Durable and beautifully crafted plastic garlands featuring sacred Radha inscriptions. Perfect for decorating altars and spiritual gatherings.",
     moreInfo: `Price may vary based on size and design: ₹150/₹250`,
@@ -270,27 +183,27 @@ Length 111 cm / 43.5 inches, Price ₹150,
   {
     id: `13`,
     name: "Chanting recorder",
-    price: "₹120",
+    price: "₹220",
     description: "Electronic chanting device",
-    img: [{ url: recorder }],
+    img: [{ url: "/images/recorder.webp" }],
     description2:
       "Portable device designed to assist spiritual chanting and meditation. Clear sound quality and easy to use, enhancing your devotional practice.",
     moreInfo: {},
   },
   {
     id: `14`,
-    name: "God's images on curtains",
-    price: "₹250 - ₹400",
+    name: "God's images curtains",
+    price: "₹200 - ₹600",
     description: "Available in 2 sizes: ₹250 and ₹400",
     img: [
-      { url: curtn1 },
-      { url: curtn2 },
-      { url: curtn3 },
-      { url: curtn4 },
-      { url: curtn5 },
-      { url: curtn6 },
-      { url: curtn7 },
-      { url: curtn8 },
+      { url: "/images/curtns1.webp" },
+      { url: "/images/curtn2.webp" },
+      { url: "/images/curtn3.webp" },
+      { url: "/images/curtn4.webp" },
+      { url: "/images/curtn5.webp" },
+      { url: "/images/curtn6.webp" },
+      { url: "/images/curtn7.webp" },
+      { url: "/images/curtn8.webp" },
     ],
     description2:
       "Spiritual curtains featuring divine imagery of deities. Enhance your sacred spaces with these vibrant and meaningful decorative fabrics.",
@@ -301,7 +214,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     name: "Cow dung diyas",
     price: "₹10",
     description: "Eco-friendly lamps",
-    img: [{ url: cowDiye }],
+    img: [{ url: "/images/cowdiye.webp" }],
     description2:
       "Traditional eco-friendly lamps made from cow dung. Widely used in religious ceremonies, these diyas symbolize purity and connection to nature.",
     moreInfo: {},
@@ -311,7 +224,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     name: "Cow dung pot",
     price: "₹50",
     description: "For Tulsi plant",
-    img: [{ url: cowDungPot }],
+    img: [{ url: "/images/cowDungPot.webp" }],
     description2:
       "Natural and biodegradable cow dung pots ideal for planting Tulsi and other sacred plants. Environmentally friendly and spiritually significant.",
     moreInfo: {},
@@ -321,7 +234,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     name: "Cow dung cup with havan samagri",
     price: "₹20",
     description: "Cup filled with havan materials",
-    img: [{ url: havancup }],
+    img: [{ url: "/images/havancup.webp" }],
     description2:
       "Cup containing essential materials for havan rituals. Convenient and ready-to-use for spiritual ceremonies and offerings.",
     moreInfo: {},
@@ -331,7 +244,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     name: "Neem datun",
     price: "₹50",
     description: "Pack of 20",
-    img: [{ url: neem }],
+    img: [{ url: "/images/neem.webp" }],
     description2:
       "Natural neem toothsticks known for their medicinal properties. Ideal for maintaining oral hygiene in a traditional and holistic way.",
     moreInfo: {},
@@ -341,7 +254,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     name: "Handmade Tulsi mala",
     price: "₹60",
     description: "Original handmade Tulsi mala",
-    img: [{ url: tuliMala }],
+    img: [{ url: "/images/tulsiMala.webp" }],
     description2:
       "Handcrafted Tulsi bead malas for spiritual chanting and meditation. Lightweight and durable, perfect for daily use or gifting.",
     moreInfo: `
@@ -356,23 +269,23 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹20 - ₹50",
     description: "Available in ₹20, ₹30, ₹50",
     img: [
-      { url: earing1 },
-      { url: earring2 },
-      { url: earing3 },
-      { url: earing4 },
-      { url: earing5 }
+      { url: "/images/earing1.webp" },
+      { url: "/images/earring2.webp" },
+      { url: "/images/earring3.webp" },
+      { url: "/images/earring4.webp" },
+      { url: "/images/earring 5.webp" },
     ],
     description2:
       "Elegant pearl and plastic earrings in assorted designs and prices. Perfect for everyday wear or festive occasions.",
     moreInfo: {},
   },
-    {
+   {
     id: `21`,
     name: "Pram for Krishna dolls",
     price: "₹1000",
     description:
       "Toy pram for dolls. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: pram }],
+    img: [{ url: "/images/pram.webp" }],
     description2:
       "Miniature prams designed specifically for Krishna dolls. They enhance the display and provide an authentic touch to your devotional setup.",
   },
@@ -382,7 +295,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹500 - ₹900",
     description:
       "Single doll ₹500, double cot ₹900. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: id22 }],
+    img: [{ url: "/images/1d22.webp" }],
     description2:
       "Comfortable and charming cots crafted for one or two dolls, perfect for home altar arrangements and festive decor.",
   },
@@ -392,7 +305,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹300",
     description:
       "Utensils for offering food. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: bhogThali }],
+    img: [{ url: "/images/bhogThali.webp" }],
     description2:
       "Durable steel utensils designed specifically for offering bhoga. Practical and spiritually respectful, they are essential for puja preparations.",
   },
@@ -402,7 +315,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹1000",
     description:
       "Brass thali for worship. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: poojaThali }],
+    img: [{ url: "/images/poojaThali.webp" }],
     description2:
       "Traditional brass plate used during arti rituals. Its intricate design and quality craftsmanship make it ideal for daily worship or special occasions.",
   },
@@ -411,8 +324,8 @@ Length 111 cm / 43.5 inches, Price ₹150,
     name: "Handmade lufa",
     price: "₹40",
     description:
-      "Hygienic bathing sponge. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{url: loffa}],
+      "Hygienic bathing sponge.",
+    img: [{ url: "/images/loffa.webp" }],
     description2:
       "Natural and hygienic handmade luffa sponge perfect for bathing. Eco-friendly and gentle on the skin, it supports wellness and cleanliness.",
   },
@@ -422,7 +335,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹15",
     description:
       "Sandalwood paste for forehead. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: gopiChandan }],
+    img: [{ url: "/images/gopiChandan.webp" }],
     description2:
       "Pure sandalwood paste applied as a spiritual tilak. It cools the skin, calms the mind, and symbolizes purity and devotion.",
   },
@@ -433,9 +346,9 @@ Length 111 cm / 43.5 inches, Price ₹150,
     description:
       "Dresses for Laddu Gopal idols. A beautiful and thoughtful addition to your spiritual or festive collection.",
     img: [
-      { url: ladugopaldress1 },
-      { url: ladugopaldress2 },
-      { url: ladugopaldress3 },
+      { url: "/images/ladugopal1.webp" },
+      { url: "/images/ladugopal2.webp" },
+      { url: "/images/ladugopal3.webp" },
     ],
     description2:
       "Handmade dresses tailored specifically for Laddu Gopal idols. Available in multiple sizes and customizable to meet your devotional preferences.",
@@ -446,7 +359,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹10 each",
     description:
       "Natural peacock feather. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: peacockfeather }],
+    img: [{ url: "/images/peacockfeather.webp" }],
     description2:
       "Authentic peacock feathers used in decoration and worship. Symbolic of beauty and spirituality, they enhance your devotional environment.",
   },
@@ -456,7 +369,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹100 - ₹500",
     description:
       "Sizes available from ₹200 to ₹500 onwards. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: id29 }],
+    img: [{ url: "/images/id29.webp" }],
     description2:
       "Traditional chammar fans used during arti ceremonies to honor deities. Crafted for durability and ceremonial elegance.",
   },
@@ -466,17 +379,17 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹500",
     description:
       "Plastic deity set. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: jagarnathgPlasticset }],
+    img: [{ url: "/images/jagarnathgPlasticset.webp" }],
     description2:
       "Plastic set featuring Jagannath and related deities. Lightweight, durable, and perfect for both home worship and gifting.",
   },
-    {
+  {
     id: `31`,
     name: "Bridal celebration accessories",
     price: "Varies",
     description:
       "Yellow and green accessories; price depends on number of orders. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: jwelrymrg1 }, { url: jwelrymrg2 }],
+    img: [{ url: "/images/jewelrymrg1.webp" }, { url: "/images/jewlrymrg2.webp" }],
     description2:
       "Customizable bridal celebration sets tailored to your specific order size. Perfect for adding color and tradition to weddings and festivities.",
   },
@@ -486,7 +399,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "Varies",
     description:
       "Spiritual conchshell for rituals. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: shankhlogo }, { url: shankh }],
+    img: [{ url: "/images/shankhlogo.webp" }, { url: "/images/Shankh.webp" }],
     description2:
       "Sacred conchshells used in Hindu worship and ceremonies. Known for their resonant sound and spiritual significance, ideal for puja rituals.",
     moreInfo: `
@@ -496,10 +409,10 @@ Length 111 cm / 43.5 inches, Price ₹150,
   {
     id: `33`,
     name: "Laddu Gopal pagri",
-    price: "Varies",
+    price: "₹40",
     description:
-      "Headwear for Laddu Gopal. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: ladugopaldress2 }],
+      "Headwear for Laddu Gopal. A beautiful and thoughtful addition to your spiritual or festive collection.Price can be varies according to design.",
+    img: [{ url: "/images/ladugopal2.webp" },{ url: "/images/ladugopal4.webp" }],
     description2:
       "Traditional pagris designed specifically for Laddu Gopal idols. Adds a royal and festive touch to the divine appearance.",
   },
@@ -509,7 +422,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹280",
     description:
       "Hand cymbals for bhajans. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: id34 }],
+    img: [{ url: "/images/id34.webp" }],
     description2:
       "Musical hand cymbals used during devotional singing. Medium size and perfect for accompanying kirtans and bhajans with rhythmic sounds.",
     moreInfo: `
@@ -522,7 +435,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "Varies",
     description:
       "Traditional percussion instrument. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: Mardanga }],
+    img: [{ url: "/images/Mardanga.webp" }],
     description2:
       "Classic mridanga drum used to accompany bhajans and kirtans. Rich in sound and craftsmanship, ideal for spiritual music sessions.",
   },
@@ -532,7 +445,11 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "Varies",
     description:
       "Keyboard instrument for devotional music. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: harmonium1 }, { url: harmonium2 }, { url: harmonium3 }],
+    img: [
+      { url: "/images/harmonium1.webp" },
+      { url: "/images/harmonium2.webp" },
+      { url: "/images/harmonium3.webp" },
+    ],
     description2:
       "Portable harmonium ideal for spiritual gatherings and kirtans. Comes with precise tuning and compact design for ease of use.",
     moreInfo: `
@@ -551,7 +468,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹250 - varies",
     description:
       "Traditional attire. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: dhotiKurta }],
+    img: [{ url: "/images/dhotiKurta.webp" }],
     description2:
       "Classic Indian traditional dress for men. Comfortable and elegant for festivals, rituals, and cultural occasions.",
     moreInfo: `Available in all sizes,`,
@@ -562,7 +479,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹2500",
     description:
       "Hand-painted devotional attire. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: gopidress }],
+    img: [{ url: "/images/gopidress.webp" }],
     description2:
       "Exquisitely hand-painted dresses for Gopi idols. Detailed artwork and vibrant colors bring out the divine charm.",
     moreInfo: `
@@ -572,13 +489,13 @@ Length 111 cm / 43.5 inches, Price ₹150,
   {
     id: `39`,
     name: "Handmade painted bead bags",
-    price: "₹300",
+    price: "₹70 - onwards",
     description:
       "For japa chanting. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: chantingbag }],
+    img: [{ url: "/images/chantingbag.webp" }],
     description2:
       "Handcrafted bead bags designed to hold prayer beads securely. Ideal for daily chanting and spiritual travels.",
-    moreInfo: `Depends on size and design,`,
+    moreInfo: `Depends on size and design,you can customise your bead bag according to your choice`,
   },
   {
     id: `40`,
@@ -586,7 +503,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹100",
     description:
       "Pack of 50. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: id40 }],
+    img: [{ url: "/images/id40.webp" }],
     description2:
       "Natural wicks bundled with tulsi sticks for havan rituals. Combines tradition with purity for ceremonial use.",
   },
@@ -596,7 +513,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹1600 per kg",
     description:
       "Traditional handmade ghee.",
-    img: [{ url: dhessighee }, { url: desighee1 }],
+    img: [{ url: "/images/desighee.webp" }, { url: "/images/desighee1.webp" }],
     description2:
       "Authentic bilona ghee prepared using time-honored traditional methods. Known for its rich aroma and purity, ideal for cooking and rituals.",
   },
@@ -606,7 +523,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹200",
     description:
       "Good for health and hair growth.",
-    img: [{ url: badamoil }],
+    img: [{ url: "/images/badamoil.webp" }],
     description2:
       "Natural almond (badam) oil, handmade to preserve nutrients. Excellent for skin care, hair care, massage, and overall wellness.",
     moreInfo: `
@@ -619,7 +536,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹250 - ₹350",
     description:
       "₹250 for Hindi, ₹350 for English edition. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: Bhagvadgeeta }, { url: baghvadgeeta2 }],
+    img: [{ url: "/images/Bhagvadgeeta.webp" }, { url: "/images/baghvadgeeta2.webp" }],
     description2:
       "Sacred scripture available in multiple languages. A must-have spiritual guidebook for devotees and seekers alike.",
   },
@@ -629,18 +546,18 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹20",
     description:
       "Small books for spiritual learning. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: spritualBooks }],
+    img: [{ url: "/images/spritualBooks.webp" }],
     description2:
       "Compact spiritual literature ideal for daily reading and contemplation. Perfect for those beginning their spiritual journey.",
     moreInfo: `20 for each book,`,
   },
   {
     id: `45`,
-    name: "All-in-one book for beginners",
+    name: "My All-in-one book for beginners",
     price: "₹300",
     description:
-      "Introductory spiritual guidebook. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: AllinOne }],
+      "Introductory guide book of hindi english and maths in spiritual way 80 pages book.",
+    img: [{ url: "/images/AllinOne.webp" }],
     description2:
       "Comprehensive beginner's guide to spirituality, covering essential teachings, practices, and inspirational stories.",
     moreInfo: `
@@ -652,7 +569,7 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹50",
     description:
       "Hare Krishna stickers ₹30 each. A beautiful and thoughtful addition to your spiritual or festive collection.",
-    img: [{ url: krishnaSticker }],
+    img: [{ url: "/images/krishnaSticker.webp" }],
     description2:
       "Decorative stickers with Hare Krishna motifs. Great for personalizing belongings or gifting to devotees.",
     moreInfo: `
@@ -667,14 +584,14 @@ Length 111 cm / 43.5 inches, Price ₹150,
     description:
       "Available in ₹50 ₹70 ₹100 as per selected material and size. A beautiful and thoughtful addition to your spiritual or festive collection.",
     img: [
-      { url: bangleslogo },
-      { url: bangles1 },
-      { url: bangles2 },
-      { url: bangles3 },
-      { url: bangles4 },
-      { url: bangles5 },
-      { url: bangles6 },
-      { url: bangles7 },
+      { url: "/images/bangleslogo.webp" },
+      { url: "/images/bangles1.webp" },
+      { url: "/images/bangles2.webp" },
+      { url: "/images/bangles3.webp" },
+      { url: "/images/bangles4.webp" },
+      { url: "/images/bangles5.webp" },
+      { url: "/images/bangles6.webp" },
+      { url: "/images/bangles7.webp" },
     ],
     description2:
       "Eco-friendly handcrafted bangles made with jute and cloth, adorned with ghungroos. Stylish and sustainable for all occasions.",
@@ -692,11 +609,11 @@ Length 111 cm / 43.5 inches, Price ₹150,
     description:
       "Spiritual images for worship. A beautiful and thoughtful addition to your spiritual or festive collection.",
     img: [
-      { url: spirtualimage1 },
-      { url: spirtualimage2 },
-      { url: spirtualimage3 },
-      { url: spirtualimage4 },
-      {url: broch1}
+      { url: "/images/spirtualimage1.webp" },
+      { url: "/images/spirtualimage2.webp" },
+      { url: "/images/spirtualimage3.webp" },
+      { url: "/images/spirtualimage4.webp" },
+      { url: "/images/broch1.webp" },
     ],
     description2:
       "Images depicting various deities and spiritual themes. Perfect for adorning your prayer space or gifting to loved ones.",
@@ -711,11 +628,43 @@ Length 111 cm / 43.5 inches, Price ₹150,
     price: "₹25",
     description: "Handmade thread bracelet",
     img: [
-      { url: braclate },
+      { url: "/images/braclate.webp" },
     ],
     description2: "Made in Vrindavan with pure devotion, Perfect for daily wear or gifting, Adjustable to fit all wrist sizes, Traditionally blessed with prayers",
     moreInfo: ``,
   },
+  {
+    id: `50`,
+    name: "Jagnnath dress",
+    price: "₹500",
+    description: "free delivery",
+    img: [
+      { url: "/images/jagarnathdress.webp" },
+    ],
+    description2: "Dresses of Jagannath, Baldev , Subhadra Maiya starting ₹500",
+    moreInfo: ``,
+  },
+  {
+    id: `51`,
+    name: "Gaur Natia Dress",
+    price: "₹500",
+    description: "no shipping charges",
+    img: [
+      { url: "/images/gournatiadress.webp" },
+    ],
+    description2: "Dresses of Lordship Gaur Nitayi ₹500",
+    moreInfo: ``,
+  },
+  {
+    id: `52`,
+    name: "Wollen Flower With Pot",
+    price: "₹400",
+    description: "Handmade wollen folwer with pot free delivery",
+    img: [
+      { url: "/images/woolenflower.webp" },
+    ],
+    description2: "Decorative and washable flower pot made with wollen",
+    moreInfo: ``,
+  },
 
 ];
-

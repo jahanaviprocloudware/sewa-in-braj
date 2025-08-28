@@ -18,7 +18,6 @@ import { SearchBar } from "../SearchBar/SearchBar";
 import { useLocation, useNavigate } from "react-router-dom";
 import { DrawerComponent } from "../Drawer/Drawer";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import logo from "../../logos/logo.webp";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -98,7 +97,7 @@ export default function NavigationBar({ onContactClick }) {
                 >
                   <MenuIcon />
                  {!['/'].includes(location.pathname) && <img
-                    src={logo}
+                    src="/images/logo.webp"
                     alt="Logo"
                     style={{ height: '4rem', marginLeft: 10 , width:'4rem'}}
                   />}
@@ -166,7 +165,7 @@ export default function NavigationBar({ onContactClick }) {
           ) : (
             <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
              {!['/'].includes(location.pathname) && <img
-                src={logo}
+                src="/images/logo.webp"
                 alt="Logo"
                 style={{ height: '4rem', marginRight: 24 ,width:'4rem'}}
               />}

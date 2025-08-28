@@ -49,15 +49,10 @@ export const DrawerComponent = ({ drawerOpen, setDrawerOpen }) => {
 );
 
   const totalItems = cartItems.reduce((acc, item) => acc + item.quantity, 0);
-  
-  const message = `Hello, I'm interested in the following products:\n${cartItems
-  .map((item, index) => `${index + 1}. ${item.name} price: ₹${item.price} (Quantity: ${item.quantity})`)
-  .join("\n")} \nTotal Price: ₹${totalPrice.toFixed(2)}`;
 
   const handleWhatsAppClick = () => {
-  const phoneNumber = "+918923720937"; 
-  const whatsappURL = cartItems.length > 0 && `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${JSON.stringify(encodeURIComponent(message))}`;
-  window.open(whatsappURL, "_blank");
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+    navigate('/shippingAdress');
 };
 
   return (

@@ -2,7 +2,6 @@ import SendIcon from "@mui/icons-material/Send";
 import { Avatar, Button } from "@mui/material";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import logo from "../../../src/logos/logo.webp";
 import { setLoading } from "../app/reducer/tabSlice";
 import "./Home.css";
 
@@ -10,14 +9,14 @@ export const Home = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   return (
-    <div className={`container-fluid backgorund`}>
+    <div className={`container-fluid backgorund`} style={{ backgroundImage: "url('/images/logo3.webp')" }}>
       <div className="col-12 d-flex flex-column vh-100 justify-content-center align-items-center backgorund2">
         
         <div className="d-flex align-items-end gap">
           <div className="headingColor">
             <Avatar
               alt="Vrindavan Market"
-              src={logo}
+              src="/images/logo.webp"
               sx={{ width: 65, height: 65 }}
             />
           </div>
